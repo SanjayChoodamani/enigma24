@@ -1,0 +1,26 @@
+.overview-deisgn{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #2C2C22;
+}
+
+.overview-deisgn h1{
+    text-align: center;
+    font-size: 6rem;
+    font-family: 'Airwings';
+    margin: 20px 0px;
+    color: white;
+}
+
+.overview-container{
+    width: 90%;
+    background-color: #D3B998;
+}
+
+.overview-container img{
+    width: 200px;
+    height: 200px;
+    display: block;
+}

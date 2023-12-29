@@ -1,0 +1,24 @@
+.nav-style{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+
+}
+
+.nav-logo a, .nav-icons a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.nav-icons{
+    display: flex;
+    gap: 0px 20px;
+}
+
+@media (max-width: 480px){
+    .nav-style{
+        padding: 20px 20px;
+    }
+}

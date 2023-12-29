@@ -1,6 +1,8 @@
 :root {
   color: white;
   background-color: #0A4651;
+  font-family: 'Retro-sans';
+  margin: 0px;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
