@@ -15,7 +15,7 @@ export default function Menu() {
             <div className="menu-open" >
                 <div className="menu-list" onClick={handleToggleChange}>
                     <div className="menu">
-                        <i class="fa-solid fa-xmark"></i>
+                        <i className="fa-solid fa-xmark"></i>
                     </div>
                     <ul>
                         <NavLink to='enigma24/'><li>Home</li></NavLink>
@@ -30,7 +30,7 @@ export default function Menu() {
     } else {
         return (
             <div className="menu" onClick={handleToggleChange}>
-                <i class="fa-solid fa-bars"></i>
+                <i className="fa-solid fa-bars"></i>
             </div>
         );
     }

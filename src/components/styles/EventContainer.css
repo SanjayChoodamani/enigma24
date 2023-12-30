@@ -1,0 +1,90 @@
+.container-design{
+    width: 90%;
+    display: flex;
+    background-color: #D3B998;
+    color: #2C2C22;
+    font-family: 'Retro-sans';
+    font-size: 30px;
+    gap: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-design img{
+    width: 40%;
+    object-fit: cover;
+}
+
+.container-desc{
+    width: 60%;
+}
+
+.container-desc h2{
+    font-family: 'Airwings';
+    font-size: 3rem;
+    text-decoration: underline;
+    margin: 0px 0px 10px 0px;
+}
+
+.event-type{
+    margin: 10px 20px 0px 0px;
+    display: inline;
+    border: 2px solid #2C2C22;
+    padding: 5px;
+}
+
+.event-desc{
+    margin: 20px 0px 0px;
+}
+
+.container-desc button{
+    background-color: #D3B998;
+    color: #2C2C22;
+    border: 2px solid #2C2C22;
+    font-size: 30px;
+    margin: 10px 0px;
+    font-family: 'Airwings';
+}
+
+@media (max-width: 480px){
+    .container-design{
+        display: flex;
+        flex-direction: column;
+        gap: 20px 0px ;
+        padding: 0px;
+        width: 90%;
+    }
+    .container-design img{
+        width: 100%;
+        height: 40%;
+        object-fit: cover;
+    }
+
+    .container-desc{
+        width: 90%;
+        padding: 5px 15px;
+    }
+    .container-desc h2{
+        font-size: 2.5rem;
+        margin: 0px 0px 10px 0px;
+    }
+    
+    .event-type{
+        font-size: 25px;
+    }
+    
+    .event-desc{
+        margin: 20px 0px 0px;
+    }
+    
+    .container-desc button{
+        background-color: #D3B998;
+        color: #2C2C22;
+        border: 2px solid #2C2C22;
+        font-size: 30px;
+        margin: 10px 0px;
+        font-family: 'Airwings';
+    }
+    
+}
