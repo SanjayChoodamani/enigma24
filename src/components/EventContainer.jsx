@@ -10,6 +10,7 @@ const EventContainer = (props) => {
     let eventDate = props.content.eventDate
     let eventLoc = props.content.eventLoc
     let eventDesc = props.content.eventDesc
+    let eventDetails = props.content.eventDetails
 
     return (
         <>
@@ -30,7 +31,8 @@ const EventContainer = (props) => {
                   name :eventName,
                   date: eventDate,
                   loc: eventLoc,
-                  desc: eventDesc
+                  desc: eventDesc,
+                  details: eventDetails
             }}/>
         </>
     );

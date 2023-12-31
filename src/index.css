@@ -3,6 +3,11 @@
   background-color: #0A4651;
   font-family: 'Retro-sans';
   margin: 0px;
+  background-image: url(/star.svg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 100px;
+  background-blend-mode: soft-light;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

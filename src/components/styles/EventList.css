@@ -1,3 +1,6 @@
+.event-heading-design{
+    height: fit-content;
+}
 .event-heading-design h1{
     font-family: 'Airwings';
     font-size: 3rem;

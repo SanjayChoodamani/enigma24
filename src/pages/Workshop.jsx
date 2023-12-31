@@ -1,8 +1,17 @@
 import React from 'react'
+import '../components/styles/Workshop.css'
+import Footer from '../components/Footer'
+
 
 const Workshop = () => {
   return (
-    <div>Workshop</div>
+    <>
+      <div className='workshop-design'>
+        <h1>WORKSHOP AND SHOWS</h1>
+      </div>
+      <Footer/>
+    </>
+
   )
 }
 

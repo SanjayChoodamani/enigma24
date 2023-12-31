@@ -10,18 +10,33 @@ export default function DisplayCard(props) {
                 </button>
                 <div className='event-display'>
                     <div className='event-register'>
+                        <div className='details'>
                         <p>Venue: </p>
                         <h6>{props.desc.loc}</h6>
                         <p>Date: </p>
                         <h6>{props.desc.date}</h6>
                         <p>Event Head: </p>
                         <h6>Acdaljda</h6>
-                        <a>Register</a>
+                        </div>
+                        <br/>
+                        <a href='#'>Register</a>
                     </div>
                     <div className='displayCardDesc'>
                         <h1>{props.desc.name}</h1>
                         <h2>Desciption</h2>
                         <p>{props.desc.desc}</p>
+                        {props.desc.details.map((detail) =>{
+                            return(
+                                <>
+                                    <h2>{detail.heading}</h2>
+                                    {detail.desc.map((content)=>{
+                                        return(
+                                            <p>{content}</p>
+                                        );
+                                    })}
+                                </>
+                            );
+                        })}
                     </div>
                 </div>
 

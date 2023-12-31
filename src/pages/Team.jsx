@@ -1,8 +1,13 @@
 import React from 'react'
+import TeamList from '../components/TeamList'
+import Footer from '../components/Footer'
 
 const Team = () => {
   return (
-    <div>Team</div>
+    <div>
+      <TeamList/>
+      <Footer/>
+    </div>
   )
 }
 

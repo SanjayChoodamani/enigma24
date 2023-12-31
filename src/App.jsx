@@ -3,6 +3,7 @@ import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
 import { Home, Events, Workshop, Team, Contact } from './pages'
 import './App.css'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path='enigma24/Team' element={<Team />} />
         <Route path='enigma24/Contact' element={<Contact />} />
       </Routes>
+      
     </BrowserRouter>
   )
 }

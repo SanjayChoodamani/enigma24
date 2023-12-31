@@ -1,0 +1,64 @@
+.contact-details{
+    padding: 20px;
+}
+.contact-details h1{
+    font-family: 'Airwings';
+    font-size: 3.5rem;
+    margin: 10px 0px;
+}
+
+.contact-container h2{
+    font-family: 'Airwings';
+    font-size: 2.5rem;
+    margin: 10px 0px;
+}
+
+.contact-card{
+    display: flex;
+    width: 60%;
+    border: 1px solid white;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.card-left{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card-left p{
+    font-size: 35px;
+    margin: 10px 0px 0px 0px;
+}
+
+.card-left span{
+    font-size: 25px;
+    margin: 0px 0px;
+    color: rgb(194, 194, 194);
+}
+
+.card-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+    font-family: 'Airwings';
+}
+
+.card-right a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+@media (max-width: 480px){
+    .contact-card{
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+    }
+    .card-right{
+        margin-top: 20px;
+    }
+}
