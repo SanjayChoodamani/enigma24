@@ -109,6 +109,7 @@ footer a{
     footer{
         background-size:  500%;
         padding: 20px;
+        font-size: 25px;
     }
     .contact{
         flex-direction: column;
