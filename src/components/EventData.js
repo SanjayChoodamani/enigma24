@@ -135,14 +135,14 @@ const designBuild = [
                 ]
             },
             {
-                "heading": "Robot Specifications(Wired)",
+                "heading": "Robot Specifications (Wired)",
                 "desc": [
                     `1. The maximum dimensions of the bot should not exceed 600mmX600mmX600mm (+10% tolerance)(excluding remote controls and control wire).`,
                     `2. Weight of the robot should not exceed 50kg (+5% tolerance is allowed) (including remote controls and control wire ).`
                 ]
             },
             {
-                "heading": "Robot Specifications(Wireless)",
+                "heading": "Robot Specifications (Wireless)",
                 "desc": [
                     `1. The maximum dimensions of the bot should not exceed 600mmX600mmX600mm (+5% tolerance) (excluding remote controls and control wire).`,
                     `2. Weight of the robot should not exceed 50kg (+5% tolerance is allowed) (including Battery, excluding Remote control and Control wires).`
@@ -539,7 +539,7 @@ const paperData = [
         "desciption": "Ditch all your knowledge and presence of mind to answer the trivia.",
         "details": [
             {
-                "heading": "Round 1(General Round):",
+                "heading": "Round 1 (General Round):",
                 "desc": [
                     `1. This round consists of 5 questions with 4 options in each topic. (3 topics)`,
 
@@ -551,7 +551,7 @@ const paperData = [
                 ]
             },
             {
-                "heading": "Round 2(Rapid Fire Round):",
+                "heading": "Round 2 (Rapid Fire Round):",
                 "desc": [
                     `1. Each team will have a duration of 1 minute to answer 5 rapid- fire questions.`,
 
@@ -559,7 +559,7 @@ const paperData = [
                 ]
             },
             {
-                "heading": "Round 3(Buzzer Round):",
+                "heading": "Round 3 (Buzzer Round):",
                 "desc": [
                     `1. Consists of 6 questions.`,
 
@@ -569,7 +569,7 @@ const paperData = [
                 ]
             },
             {
-                "heading": "Round 4(Audio-Visual-Video Round):",
+                "heading": "Round 4 (Audio-Visual-Video Round):",
                 "desc": [
                     `1. Each team will receive a prompt that may include multimedia elements, such as an image, video, or audio file.`,
 
