@@ -88,6 +88,9 @@ footer a{
     justify-content: space-between;
     align-items: center;
 }
+.social-icons{
+    display: none;
+}
 @media(max-width: 480px){
     .ohter-sites h1{
         margin-left: 10px;
@@ -109,7 +112,26 @@ footer a{
     footer{
         background-size:  500%;
         padding: 20px;
-        font-size: 25px;
+        margin-bottom: 0px;
+
+    }
+    .stayCard{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .social{
+        display: none;
+    }
+    .social-icons{
+        display: block;
+        display: flex;
+        gap: 0px 10px;
+    }
+    .address{
+        align-items: flex-start;
+        margin: 10px 0px;
     }
     .contact{
         flex-direction: column;
@@ -117,8 +139,15 @@ footer a{
 
     .develop {
         margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+
     }
     .develop p{
         margin: 0px;
+        width: fit-content;
+        font-size: 15px;
     }
 }
