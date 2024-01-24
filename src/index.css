@@ -1,7 +1,7 @@
 :root {
   color: white;
   background-color: #0A4651;
-  font-family: 'Retro-sans';
+  font-family: 'Fabrik';
   margin: 0px;
   background-image: url(/star.svg);
   background-position: center;
@@ -32,3 +32,7 @@
   src: url(/fonts/Airwings-Distressed.ttf);
 }
 
+@font-face {
+  font-family: 'Fabrik';
+  src: url(/fonts/fabrik.ttf);
+}

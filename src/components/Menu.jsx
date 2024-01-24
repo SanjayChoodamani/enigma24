@@ -3,6 +3,7 @@ import { useState } from "react";
 import { NavLink } from 'react-router-dom';
 
 
+
 export default function Menu() {
 
     const [toggle, setToggle] = useState(false);
@@ -29,9 +30,12 @@ export default function Menu() {
         );
     } else {
         return (
-            <div className="menu" onClick={handleToggleChange}>
-                <i className="fa-solid fa-bars"></i>
+            <div className="menu-bg">
+                <div className="menu" onClick={handleToggleChange}>
+                    <i className="fa-solid fa-bars"></i>
+                </div>
             </div>
+
         );
     }
 }

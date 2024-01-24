@@ -18,11 +18,11 @@ const Footer = () => {
                 <div className='contact'>
                     <div className='quickLinks'>
                         <h3>QUICK LINKS</h3>
-                        <NavLink to='enigma24/'>Home</NavLink>
-                        <NavLink to='enigma24/Events'>Events</NavLink>
-                        <NavLink to='enigma24/Workshop-Shows'>Workshop and Shows</NavLink>
-                        <NavLink to='enigma24/Team'>Team</NavLink>
-                        <NavLink to='enigma24/Contact'>Contact</NavLink>
+                        <NavLink to='/enigma24/'>Home</NavLink>
+                        <NavLink to='/enigma24/Events'>Events</NavLink>
+                        <NavLink to='/enigma24/Workshop-Shows'>Workshop and Shows</NavLink>
+                        <NavLink to='/enigma24/Team'>Team</NavLink>
+                        <NavLink to='/enigma24/Contact'>Contact</NavLink>
                     </div>
                     <div className='stayTouch'>
                         <h3>STAY IN TOUCH</h3>

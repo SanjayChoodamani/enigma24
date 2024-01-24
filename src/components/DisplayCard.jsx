@@ -23,7 +23,7 @@ export default function DisplayCard(props) {
                     </div>
                     <div className='displayCardDesc'>
                         <h1>{props.desc.name}</h1>
-                        <h2>Desciption</h2>
+                        <h2>Description</h2>
                         <p>{props.desc.desc}</p>
                         {props.desc.details.map((detail) =>{
                             return(

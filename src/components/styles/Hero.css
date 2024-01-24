@@ -1,5 +1,5 @@
 section{
-    height: 86dvh;
+    height: 90dvh;
 }
 
 .hero-design{
@@ -12,11 +12,16 @@ section{
     background-repeat: no-repeat;
     background-size: 70%;
 }
+/* .hero-bg{
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.13);
+} */
 
 .Hero-content{
-    width: 90%;
     color: #E1AA3B;
     z-index: 5;
+    padding: 10px;
 }
 
 
@@ -31,12 +36,14 @@ section{
     font-family: 'Megatron';
     z-index: 0;
     height: fit-content;
+    filter: contrast(1.5);
 }
 .Hero-content h2{
     font-size: 40px;
     margin: 10px;
     font-family: 'RetroSerif';
     z-index: 3;
+    filter: contrast(1.5);
 }
 .Hero-content h3{
     font-size: 35px;
@@ -47,13 +54,14 @@ section{
     position: relative;
     left: 50%;
     bottom: 10%;
+    filter: contrast(1.5);
 }
 
 @media(max-width: 480px){
 
     .hero-design{
         background-image: url(/bg1.svg);
-        background-position: center left;
+        background-position: center center;
         background-size: 100%;
     }
     

@@ -81,7 +81,7 @@
 .displayCardDesc {
     padding: 0px 10px 10px;
     overflow-y: scroll;
-    height: 80dvh;
+    height: 90dvh;
 }
 
 .displayCardDesc h1 {
@@ -123,7 +123,7 @@
 @media (max-width: 480px) {
     .inner-card {
         width: 85%;
-        height: 85%;
+        height: 90%;
         position: relative;
     }
 
