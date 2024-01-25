@@ -2,7 +2,7 @@ import React from 'react'
 import './styles/EventList.css'
 import EventContainer from './EventContainer'
 import laser from '/events/laser.jpg'
-import './styles/workshop.css'
+import './styles/Workshop.css'
 const shows = [
     {
       "id": 1,
