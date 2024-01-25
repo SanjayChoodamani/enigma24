@@ -22,8 +22,22 @@
 }
 
 .techs-inner p{
+    font-size: 30px;
+    margin: auto 10px;
+}
+
+.techs-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.techs-content a{
+    margin: 0px 10px;
     font-size: 35px;
-    margin: auto 50px;
+    font-weight: bold;
+    width: fit-content;
+    padding: 5px;
+    border: 1px solid #2C2C22;
 }
 
 @media(max-width: 480px){

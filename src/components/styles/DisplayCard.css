@@ -156,10 +156,20 @@
     .displayCardDesc {
         overflow-y: scroll;
         height: 70dvh;
-    }
 
+    }
+    .displayCardDesc h1 {
+        font-size: 2.5rem;
+    }
+    
+    .displayCardDesc h2 {
+        font-size: 2rem;
+
+    }
+    
     .displayCardDesc p {
         width: 95%;
+        font-size: 25px;
     }
 
 }

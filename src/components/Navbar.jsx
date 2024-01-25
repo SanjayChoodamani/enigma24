@@ -27,7 +27,7 @@ const Navbar = () => {
             <header className='nav-style'>
                 <div className='nav-logo'>
                     <Link to="enigma24/">
-                        Enigma'24
+                        ENIGMA'24
                     </Link>
                 </div>
                 {windowSize[0]<480 ? <Menu/> : 

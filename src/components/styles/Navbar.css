@@ -5,7 +5,10 @@
     padding: 20px 30px;
 
 }
-
+.nav-logo{
+    z-index: 150;
+    font-family: 'Megatron';
+}
 .nav-logo a, .nav-icons a{
     color: white;
     text-decoration: none;

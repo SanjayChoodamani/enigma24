@@ -16,7 +16,7 @@ export default function DisplayCard(props) {
                         <p>Date: </p>
                         <h6>{props.desc.date}</h6>
                         <p>Event Head: </p>
-                        <h6>Acdaljda</h6>
+                        <h6>Techie</h6>
                         </div>
                         <br/>
                         <a href='#'>Register</a>
