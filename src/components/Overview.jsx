@@ -13,7 +13,7 @@ const Overview = () => {
         <div className='overview-container'>
             <img src={Robot} alt='event-design'/>
             <HashLink to="/Events#design-build"><h2>Design and Build Events</h2></HashLink>
-            <p>The most fascinating events come under Design and Build events such as Robokombat, RoboSoccer, Aeronautica, Mystique Locomotor where students design and build their own bots to perform the required action.</p>
+            <p>The Design and Build events celebrate the convergence of creativity and engineering. Participants are required to craft robots that display resilient traits. Robots are specially tailored to engage in challenges like RoboKombat, Robosoccer, Mystique Locomotor and many other dynamic events.</p>
             <HashLink to="/Events#design-build"><i class="fa-solid fa-arrow-right"></i></HashLink>  
         </div>
         <div className='overview-container'>
@@ -25,13 +25,13 @@ const Overview = () => {
         <div className='overview-container'>
             <img src={Online} alt='event-design'/>
             <HashLink to="/Events#online"><h2>Online Events</h2></HashLink>
-            <p>Online events consist of Online quiz, MCE Dollars- A virtual stock market game, Factual Reel etc. where the participants submit their responses through social media.</p>
+            <p>Online events not only offer a platform for intellectual engagement but also create a space for financial acumen to shine. Online quiz and MCE dollars are two such events that offer intellectual challenges and financial intrigue.</p>
             <HashLink to="/enigma24/Events#online"><i class="fa-solid fa-arrow-right"></i></HashLink>
         </div>
         <div className='overview-container'>
             <img src={Fun} alt='event-design'/>
             <HashLink to="/Events#fun"><h2>Fun Events</h2></HashLink>
-            <p>Fun events consist of Resonance- A friendship compatibility game, Mystery Miles- a thrilling treasure hunt.</p>
+            <p>The ultimate destination where technology meets thrill. Fun events include a spectrum of events where participants engage in dynamic challenges, unraveling the mysteries of  problem-solving.</p>
             <HashLink to="/Events#fun"><i class="fa-solid fa-arrow-right"></i></HashLink>
         </div>
     </div>

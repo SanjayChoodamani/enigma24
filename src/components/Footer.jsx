@@ -53,7 +53,7 @@ const Footer = () => {
                 </div>
                 <div className='develop'>
                     <p><i className="fa-regular fa-copyright"></i> Enigma'24</p>
-                    <p>Desinged and Developed by The Malnad Technical Club 🚀.</p>
+                    <p>Designed and Developed by The Malnad Technical Club 🚀.</p>
                 </div>
             </footer>
         </div>

@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className='about-design'>
         <h1>ABOUT</h1>
-        <p>Enigma, our flagship event, has been a testament to this legacy – from its humble beginnings as an inter-college tech fest to blossoming into a National-Level extravaganza with cutting-edge events. Lighting up the path for students to unleash latest innovations, Enigma is one such torch fostering innovation and excellence. </p>
+        <p>Enigma 2024 is a National-level Technical Extravaganza that promises an immersive experience, uniting tech enthusiasts. Enigma unfolds an unparalleled celebration of technology, creativity, and the boundless possibilities. Dive into the world of Technology at Enigma to be a be a part of the tech revolution!</p>
     </div>
   )
 }
