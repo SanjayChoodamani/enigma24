@@ -52,6 +52,7 @@ a{
     color: #2C2C22;
     text-decoration: none;
 }
+
 @media (max-width: 480px){
     .overview-deisgn h1{
         font-size: 3.5rem;

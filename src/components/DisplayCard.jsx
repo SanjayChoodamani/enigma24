@@ -9,7 +9,7 @@ export default function DisplayCard(props) {
                     <i class="fa-solid fa-xmark"></i>
                 </button>
                 <div className='event-display'>
-                    <div className='event-register'>
+                    <div className='event-register' hidden>
                         <div className='details'>
                         <p>Venue: </p>
                         <h6>{props.desc.loc}</h6>

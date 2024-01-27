@@ -3,18 +3,17 @@ import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
 import { Home, Events, Workshop, Team, Contact } from './pages'
 import './App.css'
 import Navbar from './components/Navbar'
-import Footer from './components/Footer'
 
 const App = () => {
   return (
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route index path='enigma24/' element={<Home />} />
-        <Route path='enigma24/Events' element={<Events />} />
-        <Route path='enigma24/Workshop-Shows' element={<Workshop />} />
-        <Route path='enigma24/Team' element={<Team />} />
-        <Route path='enigma24/Contact' element={<Contact />} />
+        <Route index path='/' element={<Home />} />
+        <Route path='/Events' element={<Events />} />
+        <Route path='/Workshop-Shows' element={<Workshop />} />
+        <Route path='/Team' element={<Team />} />
+        <Route path='/Contact' element={<Contact />} />
       </Routes>
       
     </BrowserRouter>

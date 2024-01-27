@@ -1,7 +1,6 @@
 import Aeronautica from '/events/aeronautica.jpg'
 import RoboK from '/events/robokombat.png'
 import RoboS from '/events/robosoccer.jpg'
-import Xtreme from '/events/xtreme.png'
 import Mystique from '/events/mystique.jpg'
 import spud from '/events/spud.jpg'
 import mega from '/events/megastruct.jpg'
@@ -12,15 +11,17 @@ import Resonance from '/events/resonance.jpg'
 import PlayBytes from '/events/playbytes.jpg'
 import dollars from '/events/mcedollar.jpg'
 import FactualReel from '/events/factual.jpg'
+import Mystery from '/events/mystery.jpg'
+import Drift from '/events/rc_bot.jpg'
 
 const nationalData = [
     {
         "id": 1,
         "imgloc": npp,
-        "name": "Paper Presentation",
+        "name": "National Level Paper Presentation",
         "date": "21/04",
         "loc": "Alumni Hall",
-        "desciption": `"Ideologists arise, not from the ashes but from opportunities" Being an excellent platform to showcase the research and ideas, this event has seen considerable amount of growth since past years, both in terms of its quality and sublime contribution towards providing nascent engineers a platform to showcase and present their interest, depth and research on a topic of their interest. Hence it has evolved as a NATIONAL LEVEL event, providing budding engineers across the country to outsmart the rest by their ideas."`,
+        "desciption": `Elevate your research to a National platform. Ignite the spark of Innovation and set ideas Ablaze!`,
         "details": [
             {
                 "heading": "Rules",
@@ -41,80 +42,12 @@ const nationalData = [
 
 const designBuild = [
     {
-        "id": 1,
-        "imgloc": Aeronautica,
-        "name": "Aeronautica",
-        "date": "21/04",
-        "loc": "Football Ground",
-        "desciption": "Welcome to the pulsating heart of drone racing, where the fusion of technology and sport gives birth to an electrifying display of aerial mastery. Witness the convergence of man and machine, where passion and skill converge to create a spectacle that pushes the boundaries of possibility.",
-        "details": [
-            {
-                "heading": "General Rules",
-                "desc": [
-                    `1. Contestants will have to register their team name and details in the registration desk. If the participants are delayed in registering their teams within the specified time, they will be disqualified with no compromise.`,
-                    `2. Every member of the participating team must carry valid student ID or CompanyID cards of their college which they will be required to produce at the time of registration.`,
-                    `3. A team may comprise a maximum of four participants.`,
-                    `4. A team can comprise of students from different colleges/teams.`,
-                    `5. A team is NOT permitted to compete with more than one bot.`,
-                    `6. There are no restrictions on number of teams from a college.`,
-                    `7. The event organizers reserve the right to stop the match at any point of time if they deem that the match is turning out to be dangerous.`
-                ]
-            },
-            {
-                "heading": "Event Format",
-                "desc": [
-                    `1. Round 1: Obstacle course. The points will be initiated from 0. For each successful passing of the obstacles, 5 points will be awarded. If the drone touches the obstacle, 2 points will be deducted.`,
-                    `2. A Bonus point of 2 points for quickest time and perfect landing.(1 point for quickest timing and 1 point for perfect landing)`,
-                    `3. Round 2: Obstacle course with more number of obstacles and certain targets with rules same as round 1.`
-                ]
-            },
-            {
-                "heading": "Event Rules",
-                "desc": [
-                    `1. A team of maximum 4 members is allowed.`,
-                    `2. A total of 2 rounds will be held.`,
-                    `3. It may vary depending on the number of participants.`,
-                    `4. Also, no participants are allowed inside the arena.`,
-                    `5. Trail run or practice in the arena is not allowed.`,
-                    `6. The organizing team holds all the right to change any or all rules, and conditions declared according to anyone from the organizing committee.`,
-                    `7. If any fraudulent behaviour from any team is noticed in terms of model specifications or wrong information provided by any other the organization holds the power to disqualify or deregister the team without being answerable to anyone. You are advised to keep a pair of charged batteries.`,
-                    `8. Any change in the problem statement would be notified to the participants. The decision of organizers will be final and binding on all.`,
-                    `9. The organizers are not responsible for any damage to the drones caused during the race.`,
-                ]
-            },
-            {
-                "heading": "Arena Specifications",
-                "desc": [
-                    `1. The dimension of the arena will not exceed 25x25(in metres).`,
-                    `2. In this specified dimension, the obstacles will be arranged as per the event organisers.`,
-                    `3. A white line will be drawn to specify the dimension of the arena and participants will not be allowed to cross this white line border. The participants can make a follow up with the bot only in the outskirts of the white line.`
-                ]
-            },
-            {
-                "heading": "Drone Specifications",
-                "desc": [
-                    `1. Dimension of the drone should not exceed 30 cm x 30 cm x 15 cm (l x b x h).`,
-                    `2. Frame size should be between 20 cm to 30 cm.`,
-                    `3. Battery or power supply should not exceed 6S or 24V.`,
-                    `4. Wing type: Only Rotary.`,
-                    `5. Max Take-off weight: 2.5 kg.`,
-                    `6. Minimum endurance: 10 to 15 minutes.`,
-                    `7. Must be operated in Line of sight.`,
-                    `8. The radio telemetry should be 900MHz to 2.4 GHz.`,
-                    `9. Markings for the head of the drone must be done by the participant.`,
-                    `10. Ready-made drones are not allowed.`
-                ]
-            }
-        ]
-
-    },
-    {
         "id": 2,
         "imgloc": RoboK,
         "name": "RoboKombat",
         "date": "21/04",
         "loc": "Auditorium",
-        "desciption": "The battleground is set to witness the flying blades and alley of destruction.Dust up and awake the ferocious gladiator.",
+        "desciption": "The fierce Arena is perfectly poised to fulfil your bot’s quest for Supremacy. Gear up to witness pulse-pounding attacks in the RoboKombat Arena.",
         "details": [
             {
                 "heading": "Rules",
@@ -213,7 +146,7 @@ const designBuild = [
         "name": "RoboSoccer",
         "date": "21/04",
         "loc": "Auditorium",
-        "desciption": "Recast your fighting bot to play soccer. Clone your Robo and make it conquer Ronaldo",
+        "desciption": "Your Robo's next challenge – Code, Kick, and Compete. Transforming Robots into Ronaldo's Digital Doppelgänger.",
         "details": [
             {
                 "heading": "GamePlay",
@@ -301,53 +234,80 @@ const designBuild = [
         ]
     },
     {
-        "id": 4,
-        "imgloc": Xtreme,
-        "name": "Xtreme Machine",
+        "id": 1,
+        "imgloc": Aeronautica,
+        "name": "Aeronautica",
         "date": "21/04",
-        "loc": "Auditorium",
-        "desciption": "A robotic contest where remote control bots pick and place things to complete the task.",
+        "loc": "Football Ground",
+        "desciption": "Experience Amusement in the sky! Drones soaring high and wide where Sky’s the only limit.",
         "details": [
             {
-                "heading": "Rules",
+                "heading": "General Rules",
                 "desc": [
-                    `1. The students must carry a valid ID card of their college which they will be required to produce at the time of registration.`,
-                    `2. Both online and offline registrations can also be done. The robot can be wired or wireless.`,
-                    `3. A team may consist of a maximum of FIVE participants. Only 2 members of a team are allowed to stay around the arena (for controlling and assisting ).`,
-                    `4. All the required accessories have to be brought by the participants. The robot should not vary for each round. No technical assistance will be provided by the coordinators during the time of the event.`,
-                    `5. Ready made toolkits are NOT allowed.`,
-                    `6. Human interference( e.g. touching the robot ) during the game is not allowed.`,
-                    `7. The team is NOT permitted to compete with more than one bot.`,
-                    `8. Teams will NOT be allowed to modify the bot during their trail. Judge’s decision will be Final.`
+                    `1. Contestants will have to register their team name and details in the registration desk. If the participants are delayed in registering their teams within the specified time, they will be disqualified with no compromise.`,
+                    `2. Every member of the participating team must carry valid student ID or CompanyID cards of their college which they will be required to produce at the time of registration.`,
+                    `3. A team may comprise a maximum of four participants.`,
+                    `4. A team can comprise of students from different colleges/teams.`,
+                    `5. A team is NOT permitted to compete with more than one bot.`,
+                    `6. There are no restrictions on number of teams from a college.`,
+                    `7. The event organizers reserve the right to stop the match at any point of time if they deem that the match is turning out to be dangerous.`
                 ]
             },
             {
-                "heading": "Robot Specifications",
+                "heading": "Event Format",
                 "desc": [
-                    `1. The robot should be self-powered with a battery not exceeding 24V.`,
-                    `2. Robot powered by onboard batteries must be sealed and immobilized with in a thick shell of at least 5mm.`, `3. Single-phase external 230V AC power will be supplied. Maximum voltage between any two points on the robot must not exceed 24VDC or 240VAC`, `4. All efforts must be made to protect battery terminals from a direct shot and causing battery fire.`,
-                    `5. Failure to do so will cause direct disqualification. The maximum dimensions of the bot should not exceed 30cmX30cmX30cm(+5% tolerance)(excluding remote controls and control wire).`
+                    `1. Round 1: Obstacle course. The points will be initiated from 0. For each successful passing of the obstacles, 5 points will be awarded. If the drone touches the obstacle, 2 points will be deducted.`,
+                    `2. A Bonus point of 2 points for quickest time and perfect landing.(1 point for quickest timing and 1 point for perfect landing)`,
+                    `3. Round 2: Obstacle course with more number of obstacles and certain targets with rules same as round 1.`
                 ]
             },
             {
-                "heading": "Robot Control Requirements",
+                "heading": "Event Rules",
                 "desc": [
-                    `1. In the case of the wired robots, the wires should remain slack at any instant during the event.`,
-                    `2. IN THE CASE OF WIRED BOTS THE WIRE SHOULD BE AT LEAST 5 METERS LONG.`,
-                    `3. In the case of a wire less system , it should have a minimum two/three frequency remote control circuit or two dual control circuits or a transmitter-receiver paired module so that the frequency interferences with opponent team can be avoided.`,
-                    `4. The teams should pair up the wireless remote with the machine before putting it into the arena.`,
-                    `5. Remote controls that are readily available in the market may also be used.`,
+                    `1. A team of maximum 4 members is allowed.`,
+                    `2. A total of 2 rounds will be held.`,
+                    `3. It may vary depending on the number of participants.`,
+                    `4. Also, no participants are allowed inside the arena.`,
+                    `5. Trail run or practice in the arena is not allowed.`,
+                    `6. The organizing team holds all the right to change any or all rules, and conditions declared according to anyone from the organizing committee.`,
+                    `7. If any fraudulent behaviour from any team is noticed in terms of model specifications or wrong information provided by any other the organization holds the power to disqualify or deregister the team without being answerable to anyone. You are advised to keep a pair of charged batteries.`,
+                    `8. Any change in the problem statement would be notified to the participants. The decision of organizers will be final and binding on all.`,
+                    `9. The organizers are not responsible for any damage to the drones caused during the race.`,
+                ]
+            },
+            {
+                "heading": "Arena Specifications",
+                "desc": [
+                    `1. The dimension of the arena will not exceed 25x25(in metres).`,
+                    `2. In this specified dimension, the obstacles will be arranged as per the event organisers.`,
+                    `3. A white line will be drawn to specify the dimension of the arena and participants will not be allowed to cross this white line border. The participants can make a follow up with the bot only in the outskirts of the white line.`
+                ]
+            },
+            {
+                "heading": "Drone Specifications",
+                "desc": [
+                    `1. Dimension of the drone should not exceed 30 cm x 30 cm x 15 cm (l x b x h).`,
+                    `2. Frame size should be between 20 cm to 30 cm.`,
+                    `3. Battery or power supply should not exceed 6S or 24V.`,
+                    `4. Wing type: Only Rotary.`,
+                    `5. Max Take-off weight: 2.5 kg.`,
+                    `6. Minimum endurance: 10 to 15 minutes.`,
+                    `7. Must be operated in Line of sight.`,
+                    `8. The radio telemetry should be 900MHz to 2.4 GHz.`,
+                    `9. Markings for the head of the drone must be done by the participant.`,
+                    `10. Ready-made drones are not allowed.`
                 ]
             }
         ]
-    },
+
+    }, 
     {
         "id": 5,
         "imgloc": Mystique,
         "name": "Mystique Locomotor",
         "date": "21/04",
         "loc": "Auditorium",
-        "desciption": "'The ultimate ATV challenge '. Participants build an ATV to master the terrain and race the bots against all hurdles while staying balanced.",
+        "desciption": "Navigate through Enigmatic hurdles where each challenge unfolds a tale of Resilience and Prowess. Embark on a journey to unveil Victory.",
         "details": [
             {
                 "heading": "Machine Specification",
@@ -429,7 +389,7 @@ const designBuild = [
         "name": "SpudZooka",
         "date": "21/04",
         "loc": "Football Ground",
-        "desciption": "A gun in the hand is better to get locked. Enrich your skills, unload the passion and shoot at the right path.",
+        "desciption": "Load your Spuds, fire away, and aim for the farthest distance in this shooting Extravaganza!",
         "details": [
             {
                 "heading": "Rules",
@@ -473,7 +433,7 @@ const designBuild = [
         "name": "Megastructure",
         "date": "21/04",
         "loc": "SA101",
-        "desciption": "A rostrum where creativity meets madness, a chance to build your own structure.",
+        "desciption": "Your chance to build the extraordinary from the ordinary. Crafting shapes and things into splendid creations.",
         "details": [
             {
                 "heading": "Rules",
@@ -493,6 +453,15 @@ const designBuild = [
                 ]
             }
         ]
+    },
+    {
+        "id": 8,
+        "imgloc": Drift,
+        "name": "Drift Blitz",
+        "date": "21/04",
+        "loc": "SA101",
+        "desciption": "Calling all tech enthusiasts! The RC Race is coming to town, and it's your chance to put your miniaturized marvels to the test. Whether you're an experienced racer or a newcomer, eager to leave your mark, this event is tailored just for you.",
+        "details": []
     }
 ]
 
@@ -503,7 +472,7 @@ const paperData = [
         "name": "Ingenium",
         "date": "21/04",
         "loc": "SA101",
-        "desciption": "Apply the scientific principles by innovative approaches and make the craziest thing ever!",
+        "desciption": "Unleash your inner Einstein and explore the infinite possibilities of Wisdom.",
         "details": [
             {
                 "heading": "Rules",
@@ -536,7 +505,7 @@ const paperData = [
         "name": "Inquizitive",
         "date": "21/04",
         "loc": "SA101",
-        "desciption": "Ditch all your knowledge and presence of mind to answer the trivia.",
+        "desciption": "Showcase your technical acumen where Tech Wits clash to conquer Inquisition.",
         "details": [
             {
                 "heading": "Round 1 (General Round):",
@@ -583,42 +552,11 @@ const paperData = [
     },
     {
         "id": 3,
-        "imgloc": Resonance,
-        "name": "Resonance",
-        "date": "21/04",
-        "loc": "SA101",
-        "desciption": "It's all about how your friendship is more compatible and deals with the scenario of incompatibility!",
-        "details": [
-            {
-                "heading": "Rules",
-                "desc": [
-                    `1. The event is all about calculating the level of understanding between two friends.`,
-
-                    `2. The event consists of 2 rounds.`,
-
-                    `3. Number of participants in each team must be 2 .`,
-
-                    `4. First round will be a written test where two friends will be seated in different classrooms and will be asked the same questions about each other.`,
-
-                    `5. Shortlisted teams with highest scores in the first round will enter the final round for which details will be revealed during the event.`,
-                    `6. Participants are not allowed to use their mobiles or any other electronic gadgets during the event.`,
-
-                    `7. Once the team gets registered, replacement of any participant in the team is not allowed.`,
-
-                    `8. Any evidence of malpractice or violation of above rules will lead to the spot elimination`,
-
-                    `9. Organizing committee has all the rights to do any modifications.`
-                ]
-            },
-        ]
-    },
-    {
-        "id": 4,
         "imgloc": PlayBytes,
         "name": "Play Bytes",
         "date": "21/04",
         "loc": "SA101",
-        "desciption": "Be pro in the art of programming and forefront the realms of coding.",
+        "desciption": "A battle that calls for Precision, Speed, and Intelligence! Unveil your skills and code your Triumph!",
         "details": [
             {
                 "heading": "Rules",
@@ -665,7 +603,7 @@ const onlineData = [
         "name": "MCE Dollars",
         "date": "19/04",
         "loc": "Online",
-        "desciption": "People hate math but love counting dollars. Get ready to sell your stocks and rank at the highest locus.",
+        "desciption": "Step into the World of Stocks, dive into an adventure to climb to the peak of  Financial Brilliance.",
         "details": []
     },
     {
@@ -674,7 +612,7 @@ const onlineData = [
         "name": "Factual Reel",
         "date": "19/04",
         "loc": "Online",
-        "desciption": `Make reality come alive on the screen. Our contest celebrates the art of factual storytelling, showcasing remarkable stories. Challenge perceptions and ignite curiosity with 'Factual reels'.`,
+        "desciption": `Get ready to unleash your creativity and showcase your talent through most captivating and entertaining videos, that will leave the audience wanting more.`,
         "details": [
             {
                 "heading": "Rules",
@@ -694,8 +632,50 @@ const onlineData = [
     }
     
 ]
-    
+const funData = [
+    {
+        "id": 2,
+        "imgloc": Mystery,
+        "name": "Mystery Miles",
+        "date": "21/04",
+        "loc": "SA101",
+        "desciption": `Prepare to set sail on an adventure like no other! The Mystery Miles is calling all intrepid souls to embark on a thrilling quest for buried secrets.`,
+        "details": []
+    },
+    {
+        "id": 1,
+        "imgloc": Resonance,
+        "name": "Resonance",
+        "date": "21/04",
+        "loc": "SA101",
+        "desciption": "Setting up the stage in which laughter resonates louder with true friendships. A BFF carnival!",
+        "details": [
+            {
+                "heading": "Rules",
+                "desc": [
+                    `1. The event is all about calculating the level of understanding between two friends.`,
 
-export { nationalData, designBuild, paperData, onlineData };
+                    `2. The event consists of 2 rounds.`,
+
+                    `3. Number of participants in each team must be 2 .`,
+
+                    `4. First round will be a written test where two friends will be seated in different classrooms and will be asked the same questions about each other.`,
+
+                    `5. Shortlisted teams with highest scores in the first round will enter the final round for which details will be revealed during the event.`,
+                    `6. Participants are not allowed to use their mobiles or any other electronic gadgets during the event.`,
+
+                    `7. Once the team gets registered, replacement of any participant in the team is not allowed.`,
+
+                    `8. Any evidence of malpractice or violation of above rules will lead to the spot elimination`,
+
+                    `9. Organizing committee has all the rights to do any modifications.`
+                ]
+            },
+        ]
+    }
+    
+]
+
+export { nationalData, designBuild, paperData, onlineData, funData };
 
 

@@ -1,14 +1,14 @@
 import React from 'react'
 import './styles/EventList.css'
 import EventContainer from './EventContainer'
-import { nationalData, designBuild, paperData, onlineData } from './EventData'
+import { nationalData, designBuild, paperData, onlineData, funData } from './EventData'
 
 
 const EventList = () => {
   return (
     <section className='event-heading-design'>
       <div id='npp'>
-        <h1>NATIONAL LEVEL EVENT</h1>
+        <h1>EVENTS</h1>
         {
           nationalData.map((data) => {
             return (<EventContainer content={{
@@ -58,6 +58,22 @@ const EventList = () => {
         <h1>ONLINE EVENTS</h1>
         {
           onlineData.map((data) => {
+            return (<EventContainer content={{
+              imgURL: data.imgloc,
+              eventName: data.name,
+              eventDate: data.date,
+              eventLoc: data.loc,
+              eventDesc: data.desciption,
+              eventDetails: data.details
+            }} />);
+          })
+        }
+      </div>
+
+      <div id='fun'>
+        <h1>FUN EVENTS</h1>
+        {
+          funData.map((data) => {
             return (<EventContainer content={{
               imgURL: data.imgloc,
               eventName: data.name,

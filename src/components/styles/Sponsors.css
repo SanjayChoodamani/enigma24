@@ -53,6 +53,12 @@
     margin: 0px;
 }
 
+.spons-p{
+    font-size: 25px;
+    width: 80%;
+    text-align: center;
+}
+
 @media(max-width: 480px){
     .spons-container {
         grid-template-columns: repeat(1, 1fr);

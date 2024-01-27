@@ -10,7 +10,7 @@ const shows = [
       "name": "Laser Show",
       "date": "20/04",
       "loc": "Auditorium",
-      "desciption": `Shows such as Laser Show is always associated with gigs which prove the untold incrediability of science and technology. Laser Show has the capacity to drive the people in and around Hassan hopping mad.`,
+      "desciption": `Brace yourselves to behold the speculating fusion of Art and Technology. Join us for a night of hypnotic bliss through captivating lights.`,
       "details": []
     },
   ]

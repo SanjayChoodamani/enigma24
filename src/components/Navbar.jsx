@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-import { Link, NavLink } from 'react-router-dom'
-import './styles/Navbar.css'
-import Menu from './Menu'
+import { Link, NavLink } from 'react-router-dom';
+import './styles/Navbar.css';
+import Menu from './Menu';
 
 const Navbar = () => {
 
@@ -26,19 +26,18 @@ const Navbar = () => {
         <nav>
             <header className='nav-style'>
                 <div className='nav-logo'>
-                    <Link to="enigma24/">
+                    <Link to="/">
                         ENIGMA'24
                     </Link>
                 </div>
                 {windowSize[0]<480 ? <Menu/> : 
                 <div className='nav-icons'>
-                    <NavLink to='enigma24/'>Home</NavLink>
-                    <NavLink to='enigma24/Events'>Events</NavLink>
-                    <NavLink to='enigma24/Workshop-Shows'>Workshop and Shows</NavLink>
-                    <NavLink to='enigma24/Team'>Team</NavLink>
-                    <NavLink to='enigma24/Contact'>Contact</NavLink>
+                    <NavLink to='/'>Home</NavLink>
+                    <NavLink to='/Events'>Events</NavLink>
+                    <NavLink to='/Workshop-Shows'>Workshop and Shows</NavLink>
+                    <NavLink to='/Team'>Team</NavLink>
+                    <NavLink to='/Contact'>Contact</NavLink>
                 </div>}
-                
             </header>
         </nav>
     )

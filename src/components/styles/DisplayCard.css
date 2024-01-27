@@ -81,7 +81,8 @@
 .displayCardDesc {
     padding: 0px 10px 10px;
     overflow-y: scroll;
-    height: 90dvh;
+    height: 85dvh;
+
 }
 
 .displayCardDesc h1 {
@@ -104,19 +105,15 @@
 }
 
 
-::-webkit-scrollbar {
+.displayCardDesc ::-webkit-scrollbar {
     width: 10px;
 }
 
-
-::-webkit-scrollbar-track {
+.displayCardDesc::-webkit-scrollbar-track {
     box-shadow: inset 0 0 1px #6e6e6e4f;
 }
-
-::-webkit-scrollbar-thumb {
+.displayCardDesc ::-webkit-scrollbar-thumb {
     background: #a8a8a863;
-
-
 }
 
 
@@ -134,7 +131,7 @@
     }
 
     .event-register {
-        display: flex;
+        display: none;
         gap: 0px 10px;
         justify-content: space-around;
         align-items: start;
@@ -155,8 +152,7 @@
 
     .displayCardDesc {
         overflow-y: scroll;
-        height: 70dvh;
-
+        height: 80dvh;
     }
     .displayCardDesc h1 {
         font-size: 2.5rem;
@@ -164,7 +160,6 @@
     
     .displayCardDesc h2 {
         font-size: 2rem;
-
     }
     
     .displayCardDesc p {
