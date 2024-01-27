@@ -8,7 +8,7 @@ const TeamCard = (props) => {
     <div className='teamCard'>
         <img src={props.img} alt='team-member' className='team-image'/>
         <img src={Ribbon} alt='ribbon' className='team-ribbon'/>
-        <p>Techie {props.name}</p>
+        <p>{props.name}</p>
     </div>
   )
 }

@@ -6,115 +6,115 @@ import TeamCard from './TeamCard'
 const finalYears = [
     {
         imgloc: manvith,
-        name: 'Manvith'
+        name: 'Manvith G S'
     },
     {
         imgloc: prajwal,
-        name: 'Prajwal'
+        name: 'J A Prajwal'
     },
     {
         imgloc: swathi,
-        name: 'Swathi'
+        name: 'Swathi S Shetty'
     },
     {
         imgloc: sucheth,
-        name: 'Sucheth'
+        name: 'Sucheth S'
     },
     {
         imgloc: shilpa,
-        name: 'Shilpa'
+        name: 'Shilpashree Y'
     },
     {
         imgloc: sathvik,
-        name: 'Sathvik'
+        name: 'Sathvik Rao'
     },
     {
         imgloc: shashank,
-        name: 'Shashank'
+        name: 'Shashank K S'
     },
     {
         imgloc: angel,
-        name: 'Angel'
+        name: 'Angel Joseph'
     },
     {
         imgloc: aditya,
-        name: 'Aditya'
+        name: 'Aditya R Shetty'
     },
     {
         imgloc: vinith,
-        name: 'Vinith'
+        name: 'Vinith M'
     },
     {
         imgloc: vijithashwa,
-        name: 'Vijithashwa'
+        name: 'Vijithashwa M G'
     },
     {
         imgloc: bhuvana,
-        name: 'Bhuvana'
+        name: 'Bhuvana N R'
     },
 
     {
         imgloc: monish,
-        name: 'Monish'
+        name: 'Monish D Naik'
     },
     {
         imgloc: arjun,
-        name: 'Arjun'
+        name: 'Arjun H L'
     },
     {
         imgloc: anish,
-        name: 'Anish'
+        name: 'Anish Kashyap N'
     },
     {
         imgloc: manjushree,
-        name: 'Manjushree'
+        name: 'Manjushree Patil'
     },
     {
         imgloc: vidwath,
-        name: 'Vidwath'
+        name: 'Vidwath K T'
     },
     {
         imgloc: nidhi,
-        name: 'Nidhi'
+        name: 'Nidhi A Jain'
     }
 ]
 
 const thirdYears = [
     {
         imgloc: arun,
-        name: 'Arun'
+        name: 'Arun Kumar'
     },
     {
         imgloc: ankitha,
-        name: 'Ankitha'
+        name: 'Ankitha T'
     },
     {
         imgloc: pruthvi,
-        name: 'Pruthvi'
+        name: 'Pruthvi P M'
     },
     {
         imgloc: gaargi,
-        name: 'Gaargi'
+        name: 'Gaargi H A'
     },
     {
         imgloc: deekshith,
-        name: 'Deekshith'
+        name: 'Deekshith H U'
     },
     {
         imgloc: pavan,
-        name: 'Pavan'
+        name: 'Pavan B'
     },
     {
         imgloc: keerthi,
-        name: 'Keerthi'
+        name: 'Keerthi H B'
     },
     {
         imgloc: bharath,
-        name: 'Bharath'
+        name: 'Bharath M'
     },
     {
         imgloc: sanjay,
-        name: 'Sanjay'
+        name: 'Sanjay B S'
     },
     {
         imgloc: harshitha,
@@ -122,19 +122,19 @@ const thirdYears = [
     },
     {
         imgloc: mayura,
-        name: 'Mayura'
+        name: 'Mayura M L'
     },
     {
         imgloc: anaga,
-        name: 'Anagha'
+        name: 'Anagha P Nadig'
     },
     {
         imgloc: srusti,
-        name: 'Srusti'
+        name: 'Srusti H G'
     },
     {
         imgloc: tejas,
-        name: 'tejas'
+        name: 'Tejas Noojile'
     },
 
 

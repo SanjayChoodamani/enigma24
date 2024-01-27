@@ -9,7 +9,7 @@ const ContactDetails = () => {
                 <h2>Get in Touch.</h2>
                 <div className='contact-card'>
                     <div className='card-left'>
-                        <p>Techie Manvith</p>
+                        <p>Manvith G S</p>
                         <span>Committee Chairperson</span>
                     </div>
                     <div className='card-right'>
@@ -19,7 +19,7 @@ const ContactDetails = () => {
                 </div>
                 <div className='contact-card'>
                     <div className='card-left'>
-                        <p>Techie Vidwath</p>
+                        <p>Vidwath K T</p>
                         <span>Marketing and Publicity Head</span>
                     </div>
                     <div className='card-right'>
@@ -29,7 +29,7 @@ const ContactDetails = () => {
                 </div>
                 <div className='contact-card'>
                     <div className='card-left'>
-                        <p>Techie Mayura</p>
+                        <p>Mayura M L</p>
                         <span>Marketing and Publicity</span>
                     </div>
                     <div className='card-right'>
@@ -39,7 +39,7 @@ const ContactDetails = () => {
                 </div>
                 <div className='contact-card'>
                     <div className='card-left'>
-                        <p>Techie Tejas</p>
+                        <p>Tejas Noojile</p>
                         <span>Event Coordinator</span>
                     </div>
                     <div className='card-right'>
