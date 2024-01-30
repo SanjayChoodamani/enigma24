@@ -18,7 +18,7 @@ const shows = [
 const Shows = () => {
   return (
     <>
-        <h1 className='show-heading'>Shows</h1>
+        <h1 className='show-heading'>Pronite</h1>
         {
           shows.map((data) => {
             return (<EventContainer content={{

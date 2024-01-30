@@ -20,10 +20,6 @@
   src: url(/fonts/Megatron.otf);
 }
 @font-face {
-  font-family: 'Retro-sans';
-  src: url(/fonts/RetroSans.ttf);
-}
-@font-face {
   font-family: 'RetroSerif';
   src: url(/fonts/Retro-slab-serif.ttf);
 }
@@ -31,7 +27,6 @@
   font-family: 'Airwings';
   src: url(/fonts/Airwings-Distressed.ttf);
 }
-
 @font-face {
   font-family: 'Fabrik';
   src: url(/fonts/fabrik.ttf);

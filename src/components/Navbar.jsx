@@ -34,7 +34,7 @@ const Navbar = () => {
                 <div className='nav-icons'>
                     <NavLink to='/'>Home</NavLink>
                     <NavLink to='/Events'>Events</NavLink>
-                    <NavLink to='/Workshop-Shows'>Workshop and Shows</NavLink>
+                    <NavLink to='/Workshop-Pronite'>Workshop and Pronite</NavLink>
                     <NavLink to='/Team'>Team</NavLink>
                     <NavLink to='/Contact'>Contact</NavLink>
                 </div>}
