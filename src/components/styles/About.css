@@ -27,8 +27,8 @@
         padding: 20px;
     }
 
-    .about-design h1 .about-design p{
-        margin: 10px 10px;
+    .about-design h1, .about-design p{
+        margin: 10px;
     }
     
     

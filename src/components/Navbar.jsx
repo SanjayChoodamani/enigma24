@@ -33,10 +33,10 @@ const Navbar = () => {
                 {windowSize[0]<480 ? <Menu/> : 
                 <div className='nav-icons'>
                     <NavLink to='/'>Home</NavLink>
-                    <NavLink to='/Events'>Events</NavLink>
-                    <NavLink to='/Workshop-Pronite'>Workshop and Pronite</NavLink>
-                    <NavLink to='/Team'>Team</NavLink>
-                    <NavLink to='/Contact'>Contact</NavLink>
+                    <NavLink to='/events'>Events</NavLink>
+                    <NavLink to='/pronite'>Workshop and Pronite</NavLink>
+                    <NavLink to='/team'>Team</NavLink>
+                    <NavLink to='/contact'>Contact</NavLink>
                 </div>}
             </header>
         </nav>

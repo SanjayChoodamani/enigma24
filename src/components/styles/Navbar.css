@@ -24,4 +24,7 @@
     .nav-style{
         padding: 20px 20px;
     }
+    .nav-logo a, .nav-icons a{
+        position: fixed;
+    }
 }

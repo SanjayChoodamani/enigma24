@@ -54,8 +54,11 @@
 .event-register {
     width: 40%;
     padding: 20px 0px;
+    margin-right: 20px;
 }
-
+.register-column{
+    gap: 20px;
+}
 .event-register p {
     font-family: 'Airwings';
     font-size: 20px;
@@ -81,7 +84,7 @@
 .displayCardDesc {
     padding: 0px 10px 10px;
     overflow-y: scroll;
-    height: 85dvh;
+    height: 80dvh;
 
 }
 
@@ -120,7 +123,7 @@
 @media (max-width: 480px) {
     .inner-card {
         width: 85%;
-        height: 90%;
+        height: 93%;
         position: relative;
     }
 
@@ -131,28 +134,33 @@
     }
 
     .event-register {
-        display: none;
+        display: flex;
         gap: 0px 10px;
         justify-content: space-around;
         align-items: start;
         width: 90%;
         padding: 0px 10px;
+        margin-right: 0px;
         position: sticky;
-
+    }
+    .event-register a{
+        margin-top: 0px;
     }
 
     .details {
         width: 50%;
         display: inline;
     }
-
-    .event-register p {
-        display: none;
+    .register-column{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 10px 0px;
     }
 
     .displayCardDesc {
         overflow-y: scroll;
-        height: 80dvh;
+        height: 50dvh;
     }
     .displayCardDesc h1 {
         font-size: 2.5rem;

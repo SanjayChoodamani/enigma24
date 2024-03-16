@@ -59,7 +59,7 @@ footer a{
 }
 
 .quickLinks a, .stayCard a{
-    margin-bottom: 10px;
+    margin-bottom: 2px;
     font-size: 30px;
 }
 
@@ -110,7 +110,7 @@ footer a{
     }
     
     footer{
-        background-size:  550%;
+        background-size:  600%;
         padding: 20px;
         margin-bottom: 0px;
 

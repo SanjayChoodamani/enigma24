@@ -1,22 +1,22 @@
-import React from 'react'
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
-import { Home, Events, Workshop, Team, Contact } from './pages'
+import { HashRouter, Route, Routes } from 'react-router-dom'
+import { Home, Events, Workshop, Team, Contact, Terms, Refund } from './pages'
 import './App.css'
 import Navbar from './components/Navbar'
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Routes>
-        <Route index path='/' element={<Home />} />
-        <Route path='/Events' element={<Events />} />
-        <Route path='/Workshop-Pronite' element={<Workshop />} />
-        <Route path='/Team' element={<Team />} />
-        <Route path='/Contact' element={<Contact />} />
+        <Route exact path='/' element={<Home />} />
+        <Route path='/events' element={<Events />} />
+        <Route path='/pronite' element={<Workshop />} />
+        <Route path='/team' element={<Team />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/terms' element={<Terms />} />
+        <Route path='/refund' element={<Refund />} />
       </Routes>
-      
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 

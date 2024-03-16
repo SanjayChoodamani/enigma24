@@ -17,7 +17,9 @@ const EventList = () => {
               eventDate: data.date,
               eventLoc: data.loc,
               eventDesc: data.desciption,
-              eventDetails: data.details
+              eventDetails: data.details,
+              eventHeads: data.heads,
+              eventContact: data.contact
             }} />);
           })
         }
@@ -33,7 +35,9 @@ const EventList = () => {
               eventDate: data.date,
               eventLoc: data.loc,
               eventDesc: data.desciption,
-              eventDetails: data.details
+              eventDetails: data.details,
+              eventHeads: data.heads,
+              eventContact: data.contact
             }} />);
           })
         }
@@ -48,7 +52,9 @@ const EventList = () => {
               eventDate: data.date,
               eventLoc: data.loc,
               eventDesc: data.desciption,
-              eventDetails: data.details
+              eventDetails: data.details,
+              eventHeads: data.heads,
+              eventContact: data.contact
             }} />);
           })
         }
@@ -64,7 +70,9 @@ const EventList = () => {
               eventDate: data.date,
               eventLoc: data.loc,
               eventDesc: data.desciption,
-              eventDetails: data.details
+              eventDetails: data.details,
+              eventHeads: data.heads,
+              eventContact: data.contact
             }} />);
           })
         }
@@ -80,7 +88,9 @@ const EventList = () => {
               eventDate: data.date,
               eventLoc: data.loc,
               eventDesc: data.desciption,
-              eventDetails: data.details
+              eventDetails: data.details,
+              eventHeads: data.heads,
+              eventContact: data.contact
             }} />);
           })
         }

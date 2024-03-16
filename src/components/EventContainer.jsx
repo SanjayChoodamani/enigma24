@@ -11,6 +11,8 @@ const EventContainer = (props) => {
     let eventLoc = props.content.eventLoc
     let eventDesc = props.content.eventDesc
     let eventDetails = props.content.eventDetails
+    let heads = props.content.eventHeads
+    let contact = props.content.eventContact
 
     return (
         <>
@@ -27,12 +29,14 @@ const EventContainer = (props) => {
                 </div>
             </div>
             <DisplayCard trigger={buttonClick} setTrigger={setButtonClick} desc= {{
-                  img :image,
-                  name :eventName,
-                  date: eventDate,
-                  loc: eventLoc,
-                  desc: eventDesc,
-                  details: eventDetails
+                    img :image,
+                    name :eventName,
+                    date: eventDate,
+                    loc: eventLoc,
+                    desc: eventDesc,
+                    details: eventDetails,
+                    heads: heads,
+                    phone: contact
             }}/>
         </>
     );

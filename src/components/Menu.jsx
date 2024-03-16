@@ -2,8 +2,6 @@ import "./styles/Menu.css";
 import { useState } from "react";
 import { NavLink } from 'react-router-dom';
 
-
-
 export default function Menu() {
 
     const [toggle, setToggle] = useState(false);
@@ -20,10 +18,10 @@ export default function Menu() {
                     </div>
                     <ul>
                         <NavLink to='/'><li>Home</li></NavLink>
-                        <NavLink to='/Events'><li>Events</li></NavLink>
-                        <NavLink to='/Workshop-Pronite'><li>Workshop and Pronite</li></NavLink>
-                        <NavLink to='/Team'><li>Team</li></NavLink>
-                        <NavLink to='/Contact'><li>Contact</li></NavLink>
+                        <NavLink to='/events'><li>Events</li></NavLink>
+                        <NavLink to='/pronite'><li>Workshop and Pronite</li></NavLink>
+                        <NavLink to='/team'><li>Team</li></NavLink>
+                        <NavLink to='/contact'><li>Contact</li></NavLink>
                     </ul>
                 </div>
             </div>
