@@ -157,10 +157,9 @@
         justify-content: space-around;
         gap: 10px 0px;
     }
-
     .displayCardDesc {
         overflow-y: scroll;
-        height: 50dvh;
+        height: 53dvh;
     }
     .displayCardDesc h1 {
         font-size: 2.5rem;
