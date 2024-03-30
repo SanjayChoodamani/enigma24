@@ -22,6 +22,7 @@ export default function Menu() {
                         <NavLink to='/pronite'><li>Workshop and Pronite</li></NavLink>
                         <NavLink to='/team'><li>Team</li></NavLink>
                         <NavLink to='/contact'><li>Contact</li></NavLink>
+                        <a href="/Rulebook.pdf">RuleBook</a>
                     </ul>
                 </div>
             </div>

@@ -1,4 +1,3 @@
-import React from 'react'
 import './styles/Sponsors.css'
 import SponsCard from './SponsCard'
 import {geetha, hassanNews, homes, max, pulselogo, stock} from './index.js'
@@ -16,7 +15,7 @@ const Sponsors = () => {
   return (
     <div className='spons-design'>
         <h1>OUR SPONSORS</h1>
-        <p className='spons-p'>We invite prospective sponsors to join hands with us in powering innovation and excellence at our upcoming Enigma'24, The National Level Technical Fest. Your sponsorship is key to making this event a resounding success!</p>
+        <p className='spons-p'>We invite prospective sponsors to join hands with us in powering innovation and excellence at our upcoming Enigma'24, The National Level Technical Fest. Your sponsorship is key to ensuring this event a resounding success!</p>
         {/* <div className='spons-container'>
             {sponsDetails.map((content) =>{
                 return (

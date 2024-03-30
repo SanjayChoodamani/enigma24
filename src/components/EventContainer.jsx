@@ -1,4 +1,3 @@
-import React from "react";
 import "./styles/EventContainer.css";
 import { useState } from "react";
 import DisplayCard from "./DisplayCard";
@@ -21,8 +20,8 @@ const EventContainer = (props) => {
         <img src={image} alt={eventName} />
         <div className="container-desc">
           <h2>{eventName}</h2>
-          {/* <p className='event-type'>{eventDate}</p>
-                    <p className='event-type'>{eventLoc}</p> */}
+          <p className='event-type'>{eventDate}</p>
+          <p className='event-type'>{eventLoc}</p>
           <p className="event-desc">{eventDesc}</p>
           <button onClick={() => setButtonClick(true)}>Know More</button>
         </div>

@@ -60,9 +60,9 @@ const designBuild = [
       {
         heading: "Rules",
         desc: [
-          `1. Contestants will have to register online. On spot registration can also be done.`,
-          `2. The bot has to be submitted to organizers 90 min before the event.`,
-          `3. The machine will be checked for safety during registrations. In case of unsafe bots, the team will be allowed to modify the bot within 90min. If the team fails,it will be disqualified.`,
+          `1. Contestants will have to register online. On-spot registration can also be done.`,
+          `2. The bot has to be submitted to organizers 90 minutes before the event.`,
+          `3. The machine will be checked for safety during registrations. In case of unsafe bots, the team will be allowed to modify the bot within 90 minutes. If the team fails,it will be disqualified.`,
           `4. Only three persons(team members)are allowed to take part in the competition( within the demarcated area).`,
           `5. The wire coming out of the bot should be contained in a pipe (or other alternatives). Any kind of exposed wiring should be held together by cello tape.`,
           `6. Any kind of damage to the arena will not be entertained, a warning will be given and if the damage is done after the first warning, the robot will be disqualified.`,
@@ -91,7 +91,7 @@ const designBuild = [
       {
         heading: "Robot Control Requirements",
         desc: [
-          `1. The robot can be wired or wireless. For wired robots,all the controlling wires should be bound into a single strip and properly nsulated for at least 3cm in length from the robot base. It shouldn't get tangled with the opponent's wires. For wireless robots, use a four-frequency remote control circuit or two dual control circuits to avoid the interface.`,
+          `1. The robot can be wired or wireless. For wired robots,all the controlling wires should be bound into a single strip and properly insulated for at least 3cm in length from the robot base. It shouldn't get tangled with the opponent's wires. For wireless robots, use a four-frequency remote control circuit or two dual control circuits to avoid the interface.`,
           `2. Remote controls that are readily available in the market may also be used with suitable modifications if needed.`,
           `3. The teams should pair up the wireless remote with the machine before putting it into the arena.`,
           `• In the case of wired bots, the wire should be at least 10m long and the wires should remain slack at any instant during the fight. All the wires coming out of the machine should be stacked as a single unit.`,
@@ -106,7 +106,7 @@ const designBuild = [
           `2. Battery should be properly protected from the external damages.`,
           `3. Immobilized electrolyte types (such as gel cells, lithium, NiCad or dry cells) are not allowed.`,
           `4. 230-volt AC source will be provided. Teams have to bring their own battery eliminators.`,
-          `5. Also multiple rounds may be conducted back-to-back so the batteries are advised to be kept fully charged with backup batteries.`,
+          `5. Also, multiple rounds may be conducted back-to-back, so the batteries are advised to be kept fully charged with backup batteries.`,
         ],
       },
       {
@@ -131,7 +131,7 @@ const designBuild = [
 
           `6. The robot should follow the specifications provided. Any deviation from the mentioned specifications will lead to direct disqualifications.`,
 
-          `7. Changes to structure between matches are not allowed.`,
+          `7. Changes to the structure between matches are not allowed.`,
           `8. Bots with wired controls should have a dedicated person to hold the wires and prevent it from entangling.`,
 
           `9. Wireless radio controllers shouldn't interfere with opponent's transmitter.`,
@@ -149,17 +149,14 @@ const designBuild = [
     loc: "Auditorium",
     heads: ["Arjun H L", "Aditya R"],
     contact: ["9448067129"],
-    desciption: `The Robo Soccer event is a competition where teams design and program             
-        autonomous robots to play soccer against each other. It combines elements of 
-        robotics, and sportsmanship, showcasing the team's engineering skills and 
-        creativity in building robots capable of strategic gameplay. `,
+    desciption: `The Robo Soccer event is a competition where teams design and program robots to play soccer against each other. It combines elements of robotics, and sportsmanship, showcasing the team's engineering skills and creativity in building robots capable of strategic gameplay.`,
     details: [
       {
         heading: "GamePlay",
         desc: [
-          `1. This is a 1 on 1 type game.`,
+          `1. This is a 1-on-1 type game.`,
 
-          `2. The balls used will be tennis balls.`,
+          `2. A tennis ball will be used.`,
 
           `3. Robots will be placed in different halves of the arena with ball in centre of the arena.`,
 
@@ -191,13 +188,9 @@ const designBuild = [
 
           `7. The machine must not be made from Lego parts, or any ready-made assembly kits, however participants are allowed to use their own creativity for the kick mechanism.`,
 
-          `8. The robot can be powered by a source such as a battery fixed on the robot or by a stationary power source connected to the robot by a cord.`,
+          `8. The robot can be powered by a source such as an battery fixed on the robot or by a stationary power source connected to the robot by a cord.`,
 
-          ` 9. Participants should keep spare batteries. If they require any power supply or batteries, it 
-                    should be informed 3 days prior (prior to the date of Enigma).Failure to communicate this 
-                    information to the organizers in advance, and any subsequent creation of new scenarios 
-                    related to this matter, will lead to invitation of penal action as decided by the event 
-                    organisers. `,
+          ` 9. Participants should keep spare batteries. If they require any power supply or batteries, it should be informed 3 days prior (prior to the date of Enigma). Failure to communicate this  information to the organizers in advance, and any subsequent creation of new scenarios related to this matter, will lead to invitation of penal action as decided by the event organisers. `,
 
           `10. The length of the wire (for wired bots) should be long enough to cover the whole arena and wire should remain slack during the complete game.`,
         ],
@@ -233,15 +226,13 @@ const designBuild = [
           `1. For each goal scored by a team, 4 points will be awarded.`,
           `2. If the bot damages the arena or the opponent's bot (major damage), 2 points will be deducted.`,
 
-          `3. A warning will be given for not following the rules after which 2 points will be deducted for every warning`,
+          `3. A warning will be given for not following the rules, after which 2 points will be deducted for every warning`,
 
           `4. The winner shall be declared on the basis of the points scored.`,
 
-          `5. The opponent team must be treated with sportsmanship spirit. Non compliance of this rule 
-                    shall invite action which is decided by the organisers.`,
+          `5. The opposing team must be treated with sportsmanship. Non-compliance with this rule may result in action decided by the organizers.`,
 
-          `6. In case of any argument, any chaos or any confusion in between the event, the organisers 
-                    decision will be ultimate and no further compromise will be held on the topic.`,
+          `6. In case of any argument, any chaos or any confusion during the event, the organizers' decision will be final and no further compromise will be entertained.`,
         ],
       },
     ],
@@ -254,24 +245,32 @@ const designBuild = [
     loc: "Football Ground",
     heads: ["J A Prajwal", "Vijithashwa M G"],
     contact: ["6364205839"],
-    desciption: `An exhilarating fast-paced drone race where skilled pilots navigate custom-built drones, showcasing their precision, speed, and agility in a thrilling aerial display.`,
+    desciption: `An exhilarating fast-paced drone race where skilled pilots navigate custom-built drones, showcasing their precision, speed and agility in a thrilling aerial display.`,
     details: [
       {
         heading: "General Rules",
         desc: [
-          `1. Each team or individual must use a unique drone, no teams are allowed to use the same drones. `,
-          `2. Only custom-built drones are allowed; prebuilt drones or commercial kits are not permitted.`,
-          `3. Charging accssories and extra batteries are allowed, and sockets are available upon request. `,
-          ` 4. Participants must arrive 30 minutes before the event, with drones ready 15 minutes before the race.`,
-          `5. No practice sessions will be provided; the race is purely based on ming.`,
-          `6. Participants can move freely inside the arena but must address any doubts or discussions with organizers only. `,
-          `7. Organizers are not responsible for damages caused by obstacles. `,
-          `8. Disqualification will occur for those not following the rules and mely comple on determines the winners. `,
-          `9. Crossing obstacles with precise movements is required; +10 seconds for contact and +30 seconds for skipping obstacles. `,
-          ` 10. A technical timeout of 150 seconds will be provided (once) if the drone crashes . (Participants are required to restart from the beginning and the crashed race won't be considered).`,
-          ` 11. Mandatory takeoff and landing on the launchpad; ming starts when the drone is armed and stops on landing. `,
-          `12. Participants can use any mode of their choice such as acro, stabilize, altitude, loiter, etc. `,
-          `13. Technical specifications: Prop size 3" to 5", Battery size 3s to 5s, Frame type - True x, Dead cat, Cinewhoop, VTX - Analog or Digital, Prop material - Anything except carbon fiber. `,
+          `1. This is an Open Event. `,
+          `2. Each team or individual must use a unique drone and no teams are allowed to use the same drone.`,
+          `3. Only custom-built drones are allowed and commercial kits are not permitted.`,
+          `4. Charging accessories and extra battery packs are mandatory as there can be multiple rounds conducted and sockets are provided upon request.`,
+          `5. Participants must arrive at least 30 minutes before the event begins and ensure their drones are ready for the race 15 minutes prior to the start.`,
+          `6. No practice sessions will be provided; the race is purely based on timing. `,
+          `7. Participants can move freely inside the arena but must address any doubts or discussions with organizers only. `,
+          `8. Organizers are not responsible for any of the belongings or damages caused by obstacles. `,
+          `9. Fastest to complete the race is clearly declared as the winner. `,
+          `10. Crossing obstacles with precise movements is required; +10 seconds for contact and +30 seconds for skipping obstacles.`,
+          `11. A technical timeout of 150 seconds will be provided (once) if the drone crashes. (Participants are required to restart from the beginning and the crashed race won't be considered).`,
+          `12. Mandatory take-off and landing on the launchpad; timing starts when the drone is armed and stops on landing.`,
+          `13. Participants can use any mode of their choice such as acro, stabilize , altitude, loiter, etc. `,
+          `14. Technical specifications:`,
+          `Prop size`+`\xa0\xa0\xa0\xa0\xa0\xa0\xa0`+`: 3" to 5"`, 
+          `Battery size`+`\xa0\xa0\xa0`+`: 3s to 5s`, 
+          `Frame type `+`\xa0\xa0\xa0`+`: True x, Dead cat, Cinewhoop`, 
+          `VTX `+`\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0`+`: Analog or Digital`, 
+          `Prop material 	: Anything except carbon fibre
+          `,
+          `15. Not following any of the above mentioned rules might lead to disqualification.`
         ],
       },
     ],
@@ -285,14 +284,14 @@ const designBuild = [
     heads: ["Vidwath K T", "Manjushree Patil"],
     contact: ["7019347171"],
     desciption: ` The track, crafted by organizers, features various obstacles including pipe sections, 
-        stones, mud, and slippery terrain. The objective for the contestants is to guide their robots 
+        stones, mud and slippery terrain. The objective for the contestants is to guide their robots 
         through the course as quickly as possible obeying all the rules, with the fastest completion 
         time determining the winner`,
     details: [
       {
         heading: "Machine Specification",
         desc: [
-          `1. Machine should fit in a box of dimensions 300 mm x 300 mmx 300 mm (l*b*h) at any moment. The external device which is used to control the machine is not included in the size constraint.`,
+          `1. Machine should fit in a box of 300 mm x 300 mmx 300 mm (l*b*h) at any moment. The external device which is used to control the machine is not included in the size constraint.`,
 
           `2. The machine should be controlled by a wired/wireless remote-control mechanism throughout the race.`,
 
@@ -300,17 +299,17 @@ const designBuild = [
 
           ` 4. The machine must not be made from Lego parts or any ready- made assembly kits other than the parts mentioned below.`,
 
-          ` 5. The machine may consist of: Gears, Differential gear, springs, shock absorbers, servo motors, batteries, wheels, wheel hub, Belt drives, Chain drives are allowed.`,
+          ` 5. The machine may consist of: gears, differential gear, springs, shock absorbers, servo motors, batteries, wheels, wheel hub, Belt drives, Chain drives are allowed.`,
           `6.  AC power supply of 240 volts will be provided. The machine must use only mechanical power generated by DC motors. Use of any other sources such as IC Engines, chemicals, 
                     compressed gas, rockets etc. is not allowed.`,
           "7. The machine will be inspected and if found to be dangerous, the team will be disqualified.  This decision rests solely with the judges and the organizers.",
-          `8. Use of pneumatic and hydraulic tools is not allowed.`,
+          `8. Use of pneumatic and hydraulic tools are not allowed.`,
         ],
       },
       {
         heading: "Track Specification",
         desc: [
-          `1. The track will be an all-terrain track with sharp turns and jumps. The machine should be able to cross, bumps, rough patches on the track.`,
+          `1. The track will be an all-terrain track with sharp turns and jumps. The machine should be able to cross bumps and rough patches on the track.`,
 
           `2. Although organizers make efforts to maintain the track's quality, it is inevitable that the track will undergo wear and tear from the machines running on it. As a result, the machines must be able to perform well on the weakened track.`,
 
@@ -320,9 +319,9 @@ const designBuild = [
       {
         heading: "Rules",
         desc: [
-          `1. All the team members must be full-time students at an accredited University/college`,
+          `1. All the team members must be full-time students at an accredited University/college.`,
 
-          `2. Only students from the same college can form a team`,
+          `2. Only students from the same college can form a team.`,
 
           `3.  Individual cannot be a member of more than one team and Robots cannot be shared by two or more teams.`,
 
@@ -335,7 +334,7 @@ const designBuild = [
 
           `7. If the bot is unable to pass through any obstacle, the bot will be permitted to skip up to 2 obstacles (with the operator consent) with a penalty of 90 seconds and 180 seconds respectively, to the time taken by the bot to complete the whole track.`,
 
-          `8. The obstacles’ skipping rule is valid only after spending 30 seconds on that particular obstacle. `,
+          `8. The obstacles' skipping rule is valid only after spending 30 seconds on that particular obstacle. `,
 
           `9.  Each participant is limited to the completion of only a single lap during the event.`,
 
@@ -346,7 +345,7 @@ const designBuild = [
           `12. The machine which reaches the destination in the least time will be declared as the winner.`,
           `13. Team members are not permitted to touch their machines during the race. In case of any minor damage to the bot, the team members will be permitted to repair their bot.`,
           `14.  Organizers will not provide any kind of accessories during or before the event.`,
-          `15. Only the participants of the team whose match is on are allowed to stay near the arena 
+          `15. Only the participants of the team whose match is on, are allowed to stay near the arena 
                     during the event and if there are any clarifications, only the participants are expected to 
                     communicate with the judges/organizers, in case any person other than participants 
                     interferes, the team will be disqualified at the spot without any further discussions.`,
@@ -358,9 +357,9 @@ const designBuild = [
       {
         heading: "Score Calculation",
         desc: [
-          `1. It will be as follows`,
+          `1. It will be as follows.`,
 
-          `2. SCORE = Time taken to reach the finish line + penalty Organizers will not provide any kind of accessories during or before the event.`,
+          `2. SCORE = Time taken to reach the finish line + penalty. Organizers will not provide any kind of accessories during or before the event.`,
 
           `3. Only the participants of the team whose match is on are allowed to stay near the arena during the event and if there are any clarifications, only the participants are expected to communicate with the judges/organizers, in case any person other than participants interferes, the team will be disqualified at the spot without any further discussions. The organizers reserve the right to change any or all of the above rules as they deem fit.`,
 
@@ -416,7 +415,7 @@ const designBuild = [
 
           ` 3. The provided materials are limited. `,
 
-          `4. The competition topic will be disclosed at the start, and teams will have 3 hours for construction. `,
+          `4. The competition topic will be disclosed at the start and teams will have 3 hours for construction. `,
 
           `5. Decisions made by the judges are final. `,
 
@@ -424,8 +423,7 @@ const designBuild = [
 
           `7. Only wooden popsicle sticks and white glue are permissible for construction.`,
           `8. Teams are allowed a maximum of 120 popsicle sticks. `,
-          `9. Decorating and painting are allowed, but the judge will evaluate if they 
-                    provide an unfair advantage. `,
+          `9. Decorating and painting are allowed, but the judge will evaluate if they provide an unfair advantage. `,
           `Be creative and have fun!`,
         ],
       },
@@ -452,18 +450,17 @@ const designBuild = [
           `5.	Any additional facilities needed shall be informed to the organizers.`,
           `6.	Charging sockets can be provided for charging batteries and other accessories on demand.`,
           `7.	The race will be purely based on timings and the fastest to complete the track will be considered as winner.`,
-          `8.	Only race marshal can enter the track ,if the car topples over.`,
+          `8.	Only race marshal can enter the track, if the car topples over.`,
           `9.	The organizer's decisions are final and not following any of the above-mentioned rules can lead to disqualification.`,
           `10. The track will be of a cross country race style.`,
-          `11. The track is a coarse ground with small jumps, puddles, gravel and corners.
-                    `,
+          `11. The track is a coarse ground with small jumps, puddles, gravel and corners.`,
         ],
       },
       {
         heading: "Race Rules",
         desc: [
           `1.	In the initial round, the number of participants will determine the number of tracks available, and the maximum number of laps completed in prescribed time will advance to the second round. `,
-          `2.	In the second round, the organizer will specify the number of laps. Participants who cover the maximum number of laps in the least amount of time will be considered winners.`,
+          `2.	In the second round, the organizer will specify the number of laps. Participants who cover the maximum number of laps in the least amount of time will be considered as winners.`,
         ],
       },
       {
@@ -491,7 +488,7 @@ const paperData = [
     heads: ["Bhuvana N R", "Monish D Naik"],
     contact: ["7892346439"],
     desciption:
-      "Unleash your creativity and push the boundaries of possibility to create the craziest thing ever. Dive into the realms of Physics, Chemistry, and Biology trivia as you embark on a journey to achieve groundbreaking challenges at this extraordinary event.",
+      "Unleash your creativity and push the boundaries of possibility to create the craziest thing ever. Dive into the realms of Physics, Chemistry and Biology trivia as you embark on a journey to achieve groundbreaking challenges at this extraordinary event.",
     details: [
       {
         heading: "Rules",
@@ -500,7 +497,7 @@ const paperData = [
 
           `2. The preliminary round evaluates basic Science (PCB) concepts, with shortlisted teams advancing to the next round, details of which will be disclosed during the event.`,
 
-          `3. All team members must be present for the subsequent round, where the use of mobiles or electronic gadgets is strictly prohibited.`,
+          `3. All team members must be present for the subsequent rounds, where the use of mobiles or electronic gadgets are strictly prohibited.`,
 
           `4. Once registered, participant substitutions are not permitted.`,
 
@@ -522,22 +519,23 @@ const paperData = [
     heads: ["Swathi S Shetty", "Sucheth S"],
     contact: ["8105471946"],
     desciption:
-      "Engage in a stimulating Quiz encompassing various domains and contemporary topics. Test your knowledge and compete against fellow participants in an exciting and intellectually challenging environment.  Stay sharp, display your skills, and triumph in this exciting competition.",
+      "Engage in a stimulating quiz encompassing various domains and contemporary topics. Test your knowledge and compete against fellow participants in an exciting and intellectually challenging environment.  Stay sharp, display your skills, and triumph in this exciting competition.",
     details: [
       {
-        heading: "General Round (Round 1):",
+        heading: "General Round (Round 1)",
         desc: [
-          `1. This round consists of 5 questions with 4 options `,
+          `1. The participants who have cleared the preliminary round are eligible to attend the subsequent rounds.`,
+          `2. This round consists of 5 questions with 4 options.`,
 
-          `2. •	Participants should choose one among the 4 options.`,
+          `3. Participants should choose one among the 4 options.`,
 
-          `3. For each correct answer, the team gets +5 points and 0 for incorrect answers.`,
+          `4. For each correct answer, the team gets +5 points and 0 for incorrect answers.`,
 
-          `4. No negative marking and no passing of the question.`,
+          `5. No negative marking and no passing of the question.`,
         ],
       },
       {
-        heading: "Rapid Fire Round (Round 2):",
+        heading: "Rapid Fire Round (Round 2)",
         desc: [
           `1. Each team will have a duration of 1 minute to answer 5 rapid-fire questions.`,
 
@@ -545,7 +543,7 @@ const paperData = [
         ],
       },
       {
-        heading: "Buzzer Round (Round 3):",
+        heading: "Buzzer Round (Round 3)",
         desc: [
           `1. This round consists of 6 questions.`,
 
@@ -555,7 +553,7 @@ const paperData = [
         ],
       },
       {
-        heading: "Audio-Visual-Video Round (Round 4):",
+        heading: "Audio-Visual-Video Round (Round 4)",
         desc: [
           `1. Each team will receive a prompt that may include multimedia elements, such as an image, video, or audio file.`,
 
@@ -654,17 +652,17 @@ const onlineData = [
     date: "19/04",
     loc: "Online",
     heads: ["Shashank KS", "Manjushree"],
-    contact: "8431631751",
-    desciption: `A visual narrative adventure!!. Ensure the use of unique material, stay true to the concept, and steer clear of imitation to qualify. Unleash your imagination and seize the opportunity to encapsulate moments.`,
+    contact: ["8431631751"],
+    desciption: `A visual narrative adventure!. Ensure the use of unique material, stay true to the concept, and steer clear of imitation to qualify. Unleash your imagination and seize the opportunity to encapsulate moments.`,
     details: [
       {
         heading: "Rules",
         desc: [
-          `1. Submission deadline must be adhered to for the Factual Reel event.`,
+          `1. Submission deadline must be adhered strictly.`,
 
           `2. Videos should be between 30-45 seconds in length.`,
 
-          `3. The theme provided must be the basis for the video creation..`,
+          `3. The theme provided must be the basis for the video creation.`,
 
           `4. Only original video footage is allowed to be used.`,
 
@@ -690,17 +688,16 @@ const funData = [
       {
         heading: "Event Guidelines:",
         desc: [
-          `1. The event consists of 3 rounds. 2 eliminator and 1 final round.`,
-          `2. The rules will be briefed at the venue for the event. `,
-          `3. Organizers hold the right to disqualify any team at any time if the rules are 
-                    disregarded. `,
+          `1. The event consists of 3 rounds, 2 eliminator and 1 final round.`,
+          `2. The rules will be briefed at the venue prior to the event. `,
+          `3. Organizers hold the right to disqualify any team at any time, if the rules are disregarded. `,
         ],
       },
       {
         heading: "General Rules: ",
         desc: [
-          `1. Team size: 4 members`,
-          `2. No. of rounds: 3 `,
+          `1. A team can have maximum of 4 members.`,
+          `2. The event consists of 3 rounds. `,
           `3. College ID is mandatory for every participant.`,
           `4. Judges' and organizers' decisions shall be final. `,
           `5. No trespassing on any college buildings and properties. `,

@@ -1,4 +1,3 @@
-import React from 'react'
 import './styles/Contact.css'
 
 const ContactDetails = () => {
@@ -20,7 +19,7 @@ const ContactDetails = () => {
                 <div className='contact-card'>
                     <div className='card-left'>
                         <p>Vidwath K T</p>
-                        <span>Marketing and Publicity Head</span>
+                        <span>Head of Marketing and Publicity</span>
                     </div>
                     <div className='card-right'>
                         <a href='tel:+917019347171'>+91 7019347171</a>

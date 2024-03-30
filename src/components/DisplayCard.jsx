@@ -1,4 +1,3 @@
-import React from "react";
 import "./styles/DisplayCard.css";
 
 export default function DisplayCard(props) {

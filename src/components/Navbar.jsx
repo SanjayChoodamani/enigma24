@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className="nav-logo">
           <Link to="/">ENIGMA'24</Link>
         </div>
-        {windowSize[0] < 480 ? (
+        {windowSize[0] < 800 ? (
           <Menu />
         ) : (
           <div className="nav-icons">
@@ -36,6 +36,7 @@ const Navbar = () => {
             <NavLink to="/pronite">Workshop and Pronite</NavLink>
             <NavLink to="/team">Team</NavLink>
             <NavLink to="/contact">Contact</NavLink>
+            <a href="/Rulebook.pdf">RuleBook</a>
           </div>
         )}
       </header>
