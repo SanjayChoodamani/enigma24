@@ -52,40 +52,14 @@ const workshops = [
   {
     id: 2,
     imgloc: workshopImg,
-    name: "TABLEAU",
-    date: "18/04",
+    name: "Data analytics and Trading",
+    date: "19/04",
     loc: "Alumni Hall",
-    desciption: `Unlock the power of data visualization with our exclusive Tableau workshop! Join us to discover how to create stunning dashboards and compelling storylines that captivate your audience. From mastering Tableau's interface to delivering impactful insights like a seasoned Business Analyst, this workshop is your ticket to success in the world of data analytics. `,
+    desciption: `Unlock the power of data visualization! Join our workshop on Data Analytics and Trading to master dynamic dashboards and compelling storytelling. From fundamentals to advanced techniques, elevate your data analytics skills and captivate your audience. Certificates provided. Hosted by The Malnad Technical Club in collaboration with Teachnook.`,
     head: ["Sathvik Rao", "Pavan B"],
     contact: ["6361146962", "9741375061"],
-    register: "https://www.arjhl.xyz/",
-    details: [
-      {
-        heading: "Description",
-        desc: [
-          `Session 1 : Getting yourself familiar with the
-          basic interface of Tableau.`,
-          `Session 2 : Build your first amazing dashboard hands-on &
-          a storyline report for the readers with interactive
-          filers and highlighters.`,
-          `Session 3 : Understand the default behaviour of the
-          tool starting from connecting to a Data
-          Sources till you present your Data. `,
-          `Session 4 : Learn about formatting and advanced techniques
-          to make your viz beautiful, impressive & Interactive`,
-          `Session 5 : Learn how exactly Business Analysts use Tableau
-          to deliver meaningful insight with interactive
-          Dashboard & Stories.`,
-          `Session 6 : Learn ways to share your Dashboard &
-          Stories to impress your clients.`,
-          `Session 7 : Analyzing dataset of different industries
-          with cleanup and visualization`,
-          `Support : Tricks & Tips to clear interview questions
-          Most preffered interview questions
-          Resume preparation & Cove`,
-        ],
-      },
-    ],
+    register: "https://forms.gle/JbzLnw5t7fQbEZHQA",
+    details: [],
   },
 ];
 

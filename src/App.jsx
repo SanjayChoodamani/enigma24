@@ -2,10 +2,12 @@ import { HashRouter, Route, Routes } from 'react-router-dom'
 import { Home, Events, Workshop, Team, Contact, Terms, Refund } from './pages'
 import './App.css'
 import Navbar from './components/Navbar'
+import ScrollToTop from './components/ScrollToTop'
 
 const App = () => {
   return (
     <HashRouter>
+    <ScrollToTop/>
       <Navbar />
       <Routes>
         <Route exact path='/' element={<Home />} />

@@ -31,3 +31,7 @@
   font-family: 'Fabrik';
   src: url(/fonts/fabrik.ttf);
 }
+@font-face {
+  font-family: 'SevenSegment';
+  src: url(/fonts/SevenSegment.ttf);
+}

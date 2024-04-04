@@ -1,0 +1,50 @@
+.countdownOuter{
+    margin: 40px auto;
+    width: 30%;
+    border: 2px solid white;
+    padding: 20px;
+}
+
+.countdownOuter h1{
+    margin: 0px auto 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+
+.countdownInner{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.countdown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.countdown h2{
+    margin: 5px 0px;
+    font-size: 3rem;
+    font-family: 'SevenSegment';
+}
+.countdown p{
+    margin: 0px;
+    font-size: 20px;
+}
+
+@media (max-width: 800px){
+    .countdownOuter{
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px){
+    .countdownOuter{
+        width: 70%;
+    }
+    .countdownOuter h1{
+        font-size: 2.2rem;
+    }
+}

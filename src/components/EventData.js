@@ -27,7 +27,7 @@ const nationalData = [
     registerForm:
       "https://docs.google.com/forms/u/3/d/17JfFqllxmQ0ErBc7eOKSgMxfi0QP0Zxg7sMN0mJ1b7U",
     contact: ["8105471946"],
-    desciption: `Experience the apex of innovation at our prestigious National-Level Paper Presentation event, showcasing leading talent and pioneering solutions to real-world challenges. Don't miss this unparalleled opportunity to be inspired by the ingenuity of the next generation of thinkers and problem solvers.`,
+    desciption: `Elevate your research to a National platform. Ignite the spark of Innovation and set ideas Ablaze!`,
     details: [
       {
         heading: "Rules",
@@ -55,22 +55,23 @@ const designBuild = [
     heads: ["Manvith G S", "Shilpashree Y"],
     contact: ["6361034226"],
     desciption:
-      "The fierce Arena is perfectly poised to fulfil your bot's quest for Supremacy. Gear up to witness pulse-pounding attacks in the RoboKombat Arena.",
+      "The fierce Arena is perfectly poised to fulfil your bot’s quest for Supremacy. Gear up to witness pulse-pounding attacks in the RoboKombat Arena.",
     details: [
       {
         heading: "Rules",
         desc: [
-          `1. Contestants will have to register online. On-spot registration can also be done.`,
-          `2. The bot has to be submitted to organizers 90 minutes before the event.`,
-          `3. The machine will be checked for safety during registrations. In case of unsafe bots, the team will be allowed to modify the bot within 90 minutes. If the team fails,it will be disqualified.`,
-          `4. Only three persons(team members)are allowed to take part in the competition( within the demarcated area).`,
-          `5. The wire coming out of the bot should be contained in a pipe (or other alternatives). Any kind of exposed wiring should be held together by cello tape.`,
-          `6. Any kind of damage to the arena will not be entertained, a warning will be given and if the damage is done after the first warning, the robot will be disqualified.`,
-          `7. All the required accessories have to be bought by the participants. The robot should not vary for each round.`,
-          `8. No technical assistance will be provided by the coordinators during the time of the event.`,
-          `9. No practice runs will be provided.`,
-          `10. Provision must be made by the participants to show internal circuit when demanded by organisers for inspection.`,
-          `11. Jumping and hoping is not allowed.`,
+          `1. This is an Open Event.`,
+          `2. Contestants will have to register online. On-spot registration can also be done.`,
+          `3. The bot has to be submitted to organizers 90 minutes before the event.`,
+          `4. The machine will be checked for safety during registrations. In case of unsafe bots, the team will be allowed to modify the bot within 90 minutes. If the team fails,it will be disqualified.`,
+          `5. Only three persons(team members)are allowed to take part in the competition( within the demarcated area).`,
+          `6. The wire coming out of the bot should be contained in a pipe (or other alternatives). Any kind of exposed wiring should be held together by cello tape.`,
+          `7. Any kind of damage to the arena will not be entertained, a warning will be given and if the damage is done after the first warning, the robot will be disqualified.`,
+          `8. All the required accessories have to be bought by the participants. The robot should not vary for each round.`,
+          `9. No technical assistance will be provided by the coordinators during the time of the event.`,
+          `10. No practice runs will be provided.`,
+          `11. Provision must be made by the participants to show internal circuit when demanded by organisers for inspection.`,
+          `12. Jumping and hoping is not allowed.`,
           `13. Only wedge bots are allowed.`,
         ],
       },
@@ -149,7 +150,7 @@ const designBuild = [
     loc: "Auditorium",
     heads: ["Arjun H L", "Aditya R"],
     contact: ["9448067129"],
-    desciption: `The Robo Soccer event is a competition where teams design and program robots to play soccer against each other. It combines elements of robotics, and sportsmanship, showcasing the team's engineering skills and creativity in building robots capable of strategic gameplay.`,
+    desciption: `Your Robo's next challenge - Code, Kick, and Compete. Transforming Robots into Ronaldo's Digital Doppelgänger.`,
     details: [
       {
         heading: "GamePlay",
@@ -245,7 +246,7 @@ const designBuild = [
     loc: "Football Ground",
     heads: ["J A Prajwal", "Vijithashwa M G"],
     contact: ["6364205839"],
-    desciption: `An exhilarating fast-paced drone race where skilled pilots navigate custom-built drones, showcasing their precision, speed and agility in a thrilling aerial display.`,
+    desciption: `Experience Amusement in the sky! Drones soaring high and wide where Sky's the only limit.`,
     details: [
       {
         heading: "General Rules",
@@ -262,12 +263,11 @@ const designBuild = [
           `10. Crossing obstacles with precise movements is required; +10 seconds for contact and +30 seconds for skipping obstacles.`,
           `11. A technical timeout of 150 seconds will be provided (once) if the drone crashes. (Participants are required to restart from the beginning and the crashed race won't be considered).`,
           `12. Mandatory take-off and landing on the launchpad; timing starts when the drone is armed and stops on landing.`,
-          `13. Participants can use any mode of their choice such as acro, stabilize , altitude, loiter, etc. `,
+          `13. Participants can use any mode of their choice such as acro, stabilize , altitude, loiter, etc,  the mode of flight will be line of sight and not FPV. `,
           `14. Technical specifications:`,
           `Prop size`+`\xa0\xa0\xa0\xa0\xa0\xa0\xa0`+`: 3" to 5"`, 
-          `Battery size`+`\xa0\xa0\xa0`+`: 3s to 5s`, 
+          `Battery size`+`\xa0\xa0\xa0`+`: 4s to 6s`, 
           `Frame type `+`\xa0\xa0\xa0`+`: True x, Dead cat, Cinewhoop`, 
-          `VTX `+`\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0`+`: Analog or Digital`, 
           `Prop material 	: Anything except carbon fibre
           `,
           `15. Not following any of the above mentioned rules might lead to disqualification.`
@@ -283,10 +283,7 @@ const designBuild = [
     loc: "Auditorium",
     heads: ["Vidwath K T", "Manjushree Patil"],
     contact: ["7019347171"],
-    desciption: ` The track, crafted by organizers, features various obstacles including pipe sections, 
-        stones, mud and slippery terrain. The objective for the contestants is to guide their robots 
-        through the course as quickly as possible obeying all the rules, with the fastest completion 
-        time determining the winner`,
+    desciption: `Navigate through Enigmatic hurdles where each challenge unfolds a tale of Resilience and Prowess. Embark on a journey to unveil Victory.`,
     details: [
       {
         heading: "Machine Specification",
@@ -377,7 +374,7 @@ const designBuild = [
     heads: ["Shashank K S", "Angel Joseph"],
     contact: ["8431631751"],
     desciption:
-      "Prepare for a thrilling potato-flinging adventure with the Spudzooka! With safety gear on and spuds loaded, we're set to launch these tubers into the sky. The Spudzooka promises unforgettable fun, combining innovation and camaraderie. Get ready for laughter and excitement!.",
+      "Load your Spuds, fire away, and aim for the farthest distance in this shooting Extravaganza!",
     details: [
       {
         heading: "Rules",
@@ -404,7 +401,7 @@ const designBuild = [
     heads: ["Aditya R Shetty", "Angel Joseph"],
     contact: ["8277721045"],
     desciption:
-      "It is construction time. Now, you are the new Bob The Builder and let's see how firm your bridge can stay.",
+      "Your chance to build the extraordinary from the ordinary. Crafting shapes and things into splendid creations.",
     details: [
       {
         heading: "Rules",
@@ -438,22 +435,23 @@ const designBuild = [
     heads: ["Vinit M", "Swathi S Shetty"],
     contact: ["8073996173"],
     desciption:
-      "Step into the thrilling universe of Enigma's Drift Blitz, where adept drivers conquer demanding tracks with precision and velocity, unleashing mesmerizing drifts. Prepare for an exhilarating voyage through the dynamic realm of RC car racing!",
+      "Tech enthusiasts, get ready! The RC Race is hitting town. Time to test your mini marvels. Whether you're a pro or a newcomer aiming to make a mark, this event is crafted just for you.",
     details: [
       {
         heading: "General Rules",
         desc: [
-          `1.	A team should have minimum of 2 or maximum of 3 participants.`,
-          `2.	No two teams can use the same car in the event.`,
-          `3.	All the participants must be present 1 hour prior to the event schedule.`,
-          `4.	Everyone must have their cars ready to race 15 minutes prior.`,
-          `5.	Any additional facilities needed shall be informed to the organizers.`,
-          `6.	Charging sockets can be provided for charging batteries and other accessories on demand.`,
-          `7.	The race will be purely based on timings and the fastest to complete the track will be considered as winner.`,
-          `8.	Only race marshal can enter the track, if the car topples over.`,
-          `9.	The organizer's decisions are final and not following any of the above-mentioned rules can lead to disqualification.`,
-          `10. The track will be of a cross country race style.`,
-          `11. The track is a coarse ground with small jumps, puddles, gravel and corners.`,
+          `1. This is an Open Event.`,
+          `2.	A team should have minimum of 2 or maximum of 3 participants.`,
+          `3.	No two teams can use the same car in the event.`,
+          `4.	All the participants must be present 1 hour prior to the event schedule.`,
+          `5.	Everyone must have their cars ready to race 15 minutes prior.`,
+          `6.	Any additional facilities needed shall be informed to the organizers.`,
+          `7.	Charging sockets can be provided for charging batteries and other accessories on demand.`,
+          `8.	The race will be purely based on timings and the fastest to complete the track will be considered as winner.`,
+          `9.	Only race marshal can enter the track, if the car topples over.`,
+          `10.	The organizer's decisions are final and not following any of the above-mentioned rules can lead to disqualification.`,
+          `11. The track will be of a cross country race style.`,
+          `12. The track is a coarse ground with small jumps, puddles, gravel and corners.`,
         ],
       },
       {
@@ -488,7 +486,7 @@ const paperData = [
     heads: ["Bhuvana N R", "Monish D Naik"],
     contact: ["7892346439"],
     desciption:
-      "Unleash your creativity and push the boundaries of possibility to create the craziest thing ever. Dive into the realms of Physics, Chemistry and Biology trivia as you embark on a journey to achieve groundbreaking challenges at this extraordinary event.",
+      "Unleash your inner Einstein and explore the infinite possibilities of Wisdom.",
     details: [
       {
         heading: "Rules",
@@ -519,7 +517,7 @@ const paperData = [
     heads: ["Swathi S Shetty", "Sucheth S"],
     contact: ["8105471946"],
     desciption:
-      "Engage in a stimulating quiz encompassing various domains and contemporary topics. Test your knowledge and compete against fellow participants in an exciting and intellectually challenging environment.  Stay sharp, display your skills, and triumph in this exciting competition.",
+      "Showcase your technical acumen where Tech Wits clash to conquer Inquisition.",
     details: [
       {
         heading: "General Round (Round 1)",
@@ -572,10 +570,7 @@ const paperData = [
     loc: "SA103",
     heads: ["Arjun HL", "Anish Kashyap N"],
     contact: ["9606034810"],
-    desciption: `Showcase your coding proficiency and problem-solving 
-        acumen. Immerse  in the dynamic realm of technology through 
-        challenging activities and tasks which is open to students of all 
-        backgrounds.`,
+    desciption: `A battle that calls for Precision, Speed, and Intelligence! Unveil your skills and code your Triumph!`,
     details: [
       {
         heading: "Rules",
@@ -642,7 +637,7 @@ const onlineData = [
     heads: ["Sathvik Rao", "Nidhi A Jain"],
     contact: ["6361146962"],
     desciption:
-      "Step into the World of Stocks, dive into an adventure to climb to the peak of  Financial Brilliance.",
+      "Step into the World of Stocks, dive into an adventure to climb to the peak of Financial Brilliance.",
     details: [],
   },
   {
@@ -653,7 +648,7 @@ const onlineData = [
     loc: "Online",
     heads: ["Shashank KS", "Manjushree"],
     contact: ["8431631751"],
-    desciption: `A visual narrative adventure!. Ensure the use of unique material, stay true to the concept, and steer clear of imitation to qualify. Unleash your imagination and seize the opportunity to encapsulate moments.`,
+    desciption: `Get ready to unleash your creativity and showcase your talent through most captivating and entertaining videos, that will leave the audience wanting more.`,
     details: [
       {
         heading: "Rules",
@@ -681,9 +676,7 @@ const funData = [
     loc: "Auditorium",
     heads: ["Anish N", "Bhuvana NR"],
     contact: ["8431631751"],
-    desciption: `Embark on the adventure of Mystery Miles, a captivating treasure hunt across 
-        the campus! Decode clues, follow the trail, and uncover secret locations to 
-        earn the glory of being the ultimate campus explorer.`,
+    desciption: `Prepare to set sail on an adventure like no other! The Mystery Miles is calling all intrepid souls to embark on a thrilling quest for buried secrets.`,
     details: [
       {
         heading: "Event Guidelines:",

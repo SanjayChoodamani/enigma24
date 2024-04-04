@@ -19,13 +19,13 @@ const Overview = () => {
             <img src={Paper} alt='event-design'/>
             <HashLink to="/Events#paper"><h2>Paper Events</h2></HashLink>
             <p>As participants engage in this intellectual journey, the Paper Events emerge as a celebration of diverse knowledge, offering a platform where minds collide. It includes events that celebrate the diversity of intellect and fuel the passion for knowledge exploration.</p>
-            <HashLink to="/enigma24/Events#paper"><i className="fa-solid fa-arrow-right"></i></HashLink>
+            <HashLink to="/Events#paper"><i className="fa-solid fa-arrow-right"></i></HashLink>
         </div>
         <div className='overview-container'>
             <img src={Online} alt='event-design'/>
             <HashLink to="/Events#online"><h2>Online Events</h2></HashLink>
             <p>Online events not only offer a platform for intellectual engagement but also create a space for financial acumen to shine. Online quiz and MCE dollars are two such events that offer intellectual challenges and financial intrigue.</p>
-            <HashLink to="/enigma24/Events#online"><i className="fa-solid fa-arrow-right"></i></HashLink>
+            <HashLink to="/Events#online"><i className="fa-solid fa-arrow-right"></i></HashLink>
         </div>
         <div className='overview-container'>
             <img src={Fun} alt='event-design'/>
