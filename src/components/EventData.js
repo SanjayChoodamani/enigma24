@@ -54,6 +54,7 @@ const designBuild = [
     loc: "Auditorium",
     heads: ["Manvith G S", "Shilpashree Y"],
     contact: ["6361034226"],
+    registerForm: "https://docs.google.com/forms/d/e/1FAIpQLSdAwUYjccaisTvjQKrJIILQdeAZve3Ml7tR5K7TVSyyVmJkwQ/viewform?usp=sf_link",
     desciption:
       "The fierce Arena is perfectly poised to fulfil your bot’s quest for Supremacy. Gear up to witness pulse-pounding attacks in the RoboKombat Arena.",
     details: [
@@ -150,6 +151,7 @@ const designBuild = [
     loc: "Auditorium",
     heads: ["Arjun H L", "Aditya R"],
     contact: ["9448067129"],
+    registerForm:"https://docs.google.com/forms/d/e/1FAIpQLSctFO3du5Dz82J8M-NXXTVhIOEPOBL7058XLfm_Kbx56m4tQw/viewform?usp=sf_link",
     desciption: `Your Robo's next challenge - Code, Kick, and Compete. Transforming Robots into Ronaldo's Digital Doppelgänger.`,
     details: [
       {
@@ -246,6 +248,7 @@ const designBuild = [
     loc: "Football Ground",
     heads: ["J A Prajwal", "Vijithashwa M G"],
     contact: ["6364205839"],
+    registerForm: "https://docs.google.com/forms/d/e/1FAIpQLSfbxhiU9s2HY0hv8aTPW1R3byzn0D24aoKQcoTm9KytzGCJCw/viewform?usp=sf_link",
     desciption: `Experience Amusement in the sky! Drones soaring high and wide where Sky's the only limit.`,
     details: [
       {
@@ -283,6 +286,7 @@ const designBuild = [
     loc: "Auditorium",
     heads: ["Vidwath K T", "Manjushree Patil"],
     contact: ["7019347171"],
+    registerForm: "https://docs.google.com/forms/d/e/1FAIpQLScSkTfEEotzTqEUtllvD3Ola2QfRMmyosNfECqqDWPkgArzqw/viewform?usp=sf_link",
     desciption: `Navigate through Enigmatic hurdles where each challenge unfolds a tale of Resilience and Prowess. Embark on a journey to unveil Victory.`,
     details: [
       {
@@ -373,6 +377,7 @@ const designBuild = [
     loc: "Football Ground",
     heads: ["Shashank K S", "Angel Joseph"],
     contact: ["8431631751"],
+    registerForm: "https://docs.google.com/forms/d/e/1FAIpQLSdzPeTIkpLKlUeCnBX9wORebACMyO1rFuwhNNQrOFf9Cr6odg/viewform?usp=sf_link",
     desciption:
       "Load your Spuds, fire away, and aim for the farthest distance in this shooting Extravaganza!",
     details: [
@@ -434,6 +439,7 @@ const designBuild = [
     loc: "Football Ground",
     heads: ["Vinit M", "Swathi S Shetty"],
     contact: ["8073996173"],
+    registerForm: "https://docs.google.com/forms/d/e/1FAIpQLSc8Y021dX6jlvAy3gUklJR7e_ieG9nXdlTbeKSnOybv1JvxJA/viewform?usp=sf_link",
     desciption:
       "Tech enthusiasts, get ready! The RC Race is hitting town. Time to test your mini marvels. Whether you're a pro or a newcomer aiming to make a mark, this event is crafted just for you.",
     details: [

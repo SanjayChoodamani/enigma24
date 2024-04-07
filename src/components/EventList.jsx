@@ -47,6 +47,7 @@ const EventList = () => {
                 eventDetails: data.details,
                 eventHeads: data.heads,
                 eventContact: data.contact,
+                register: data.registerForm,
               }}
             />
           );
