@@ -7,7 +7,7 @@ const CountDown = () => {
     const [hours, setHours] = useState(0);
     const [minutes, setMinutes] = useState(0);
     const [seconds, setSeconds] = useState(0);
-    const inputDate = "18 April 2024"
+    const inputDate = "19 April 2024"
 
 
     useEffect(() => {

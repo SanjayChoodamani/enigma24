@@ -1,30 +1,32 @@
 import './styles/Sponsors.css'
 import SponsCard from './SponsCard'
-import {geetha, hassanNews, homes, max, pulselogo, stock} from './index.js'
+import { stock, vcc, ktm, esscee, hexa, poorvika, teachnook, hassanNews} from './index.js'
 
 const sponsDetails = [
-    {id: 1, image:hassanNews, desc:'NEWS' },
-    {id: 2, image:homes, desc:'FOOD' },
-    {id: 3, image:max, desc:'FASHION' },
-    {id: 4, image:pulselogo, desc:'TITLE' },
-    {id: 5, image:stock, desc:'ONLINE' },
-    {id: 6, image:geetha, desc:'MEDICAL' },
+    { id: 1, image: ktm, "desc": "TITLE" },
+    { id: 2, image: hassanNews, "desc": "SOCIAL MEDIA" },
+    { id: 3, image: poorvika, "desc": "CERTIFICATE" },
+    { id: 4, image: hexa, "desc": "TICKETING"},
+    { id: 5, image: stock, "desc": "PLATFORM" },
+    { id: 6, image: teachnook, "desc": "EDUCATION" },
+    { id: 7, image: esscee, "desc": "PRINTING" },
+    { id: 8, image: vcc, "desc": "NEWS" },
 ]
 
 const Sponsors = () => {
-  return (
-    <div className='spons-design'>
-        <h1>OUR SPONSORS</h1>
-        <p className='spons-p'>We invite prospective sponsors to join hands with us in powering innovation and excellence at our upcoming Enigma'24, The National Level Technical Fest. Your sponsorship is key to ensuring this event a resounding success!</p>
-        {/* <div className='spons-container'>
-            {sponsDetails.map((content) =>{
-                return (
-                    <SponsCard id={content.id} img={content.image} domain={content.desc}/>
-                );
-            })}
-        </div> */}
-    </div>
-  )
+    return (
+        <div className='spons-design'>
+            <h1>OUR SPONSORS</h1>
+            {/* <p className='spons-p'>We invite prospective sponsors to join hands with us in powering innovation and excellence at our upcoming Enigma'24, The National Level Technical Fest. Your sponsorship is key to ensuring this event a resounding success!</p> */}
+            <div className='spons-container'>
+                {sponsDetails.map((content, index) => {
+                    return (
+                        <SponsCard key={index} image={content.image} desc={content.desc} />
+                    );
+                })}
+            </div>
+        </div>
+    )
 }
 
 export default Sponsors

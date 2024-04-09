@@ -58,7 +58,7 @@ const workshops = [
     desciption: `Unlock the power of data visualization! Join our workshop on Data Analytics and Financial Management to master dynamic dashboards and compelling storytelling. From fundamentals to advanced techniques, elevate your data analytics skills and captivate your audience. Certificates provided. Hosted by The Malnad Technical Club in collaboration with Teachnook.`,
     head: ["Sathvik Rao", "Pavan B"],
     contact: ["6361146962", "9741375061"],
-    register: "https://forms.gle/JbzLnw5t7fQbEZHQA",
+    register: "https://linktr.ee/MalnadTechnicalClub",
     details: [],
   },
 ];
@@ -67,7 +67,7 @@ const Shows = () => {
   return (
     <>
       <h1 className="show-heading">Pronite</h1>
-      {shows.map((data) => {
+      {shows.map((data, index) => {
         return (
           <EventContainer
             content={{
@@ -80,13 +80,13 @@ const Shows = () => {
               eventHeads: data.head,
               eventContact: data.contact,
               register: data.register,
-            }}
+            }} key={index}
           />
         );
       })}
       <h1 className="show-heading" >Workshop</h1>
 
-      {workshops.map((data) => {
+      {workshops.map((data, index) => {
         return (
           <EventContainer
             content={{
@@ -99,7 +99,7 @@ const Shows = () => {
               eventHeads: data.head,
               eventContact: data.contact,
               register: data.register,
-            }} id="workshop"
+            }} id="workshop" key={index}
           />
         );
       })}

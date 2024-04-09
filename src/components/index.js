@@ -1,11 +1,14 @@
-import geetha from '../assets/sponsors/geeta.jpg'
-import hassanNews from '../assets/sponsors/hassanNews.png'
-import homes from '../assets/sponsors/homes.jpg'
-import max from '../assets/sponsors/max.png'
-import pulselogo from '../assets/sponsors/pulselogo.png'
 import stock from '../assets/sponsors/stockgro.png'
-import sunrise from '../assets/sponsors/sunrise.png'
+import vcc from '../assets/sponsors/vcc.jpg'
+import ktm from '../assets/sponsors/ktm.jpg'
+import esscee from '../assets/sponsors/esscee.png'
+import hexa from '../assets/sponsors/hexa.jpg'
+import poorvika from '../assets/sponsors/poorvika.png'
+import teachnook from '../assets/sponsors/teachnook.png'
+import hassanNews from '../assets/sponsors/hassanNews.png'
+
+
 
 export{
-    geetha, hassanNews, homes, max, pulselogo, stock, sunrise
+    stock, vcc, ktm, esscee, hexa, poorvika, teachnook, hassanNews
 }
