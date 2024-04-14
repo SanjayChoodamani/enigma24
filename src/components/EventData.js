@@ -244,7 +244,7 @@ const designBuild = [
     id: 1,
     imgloc: Aeronautica,
     name: "Aeronautica",
-    date: "20/04",
+    date: "21/04",
     loc: "Football Ground",
     heads: ["J A Prajwal", "Vijithashwa M G"],
     contact: ["6364205839"],
