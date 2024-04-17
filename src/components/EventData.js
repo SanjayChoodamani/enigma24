@@ -79,8 +79,8 @@ const designBuild = [
       {
         heading: "Robot Specifications (Wired)",
         desc: [
-          `1. The maximum dimensions of the bot should not exceed 600mmX600mmX600mm (+5% tolerance)(excluding remote controls and control wire).`,
-          `2. Weight of the robot should not exceed 50kg (+ or - 10% tolerance is allowed) (including remote controls and control wire ).`,
+          `1. The maximum dimensions of the bot should not exceed 600mmX600mmX600mm (+5% tolerance) (excluding remote controls and control wire).`,
+          `2. Weight of the robot should not exceed 50kg (+ or - 10% tolerance is allowed) (excluding remote controls and control wire ).`,
         ],
       },
       {

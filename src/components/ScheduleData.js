@@ -19,7 +19,7 @@ const scheduleContent = [
             eventLoc: "SA 101"
         },
         {
-            timings: "6.16 PM",
+            timings: "6.15 PM",
             eventName: "Inquizitive",
             eventLoc: "SA 201"
         }
@@ -50,13 +50,13 @@ const scheduleContent = [
         },
         {
             timings: "8.30 AM",
-            eventName: "Mystique Locmoter",
+            eventName: "Mystique Locomoter",
             eventLoc: "Auditorium"
         },
         {
             timings: "9.00 AM",
             eventName: "Aeronautica",
-            eventLoc: "Football Ground"
+            eventLoc: "Handball Ground"
         },
         {
             timings: "9.30 AM",
@@ -71,7 +71,7 @@ const scheduleContent = [
         {
             timings: "12.00 PM",
             eventName: "Drift Blitz",
-            eventLoc: "Auditorium"
+            eventLoc: "Handball ground"
         },
         {
             timings: "2.00 PM",
